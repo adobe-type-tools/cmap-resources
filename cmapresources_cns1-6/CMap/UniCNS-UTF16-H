@@ -3,9 +3,9 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniCNS-UTF16-H)
 %%Title: (UniCNS-UTF16-H Adobe CNS1 6)
-%%Version: 1.014
+%%Version: 1.015
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2015 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-2016 Adobe Systems Incorporated.
 %%Copyright: All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
@@ -55,7 +55,7 @@ begincmap
 end def
 
 /CMapName /UniCNS-UTF16-H def
-/CMapVersion 1.014 def
+/CMapVersion 1.015 def
 /CMapType 1 def
 
 /XUID [1 10 25591] def
@@ -17368,15 +17368,16 @@ endcidchar
 <d86fdcd7> 17213
 <d871ddf8> 17266
 <d872dda0> 17283
+<d877df3c> 16303
 <d87edc06> 15843
 <d87edc25> 15704
 <d87edc28> 17316
 <d87edc29> 16486
 <d87edc32> 16510
-<d87edc3b> 18411
 endcidchar
 
 100 begincidchar
+<d87edc3b> 18411
 <d87edc40> 18727
 <d87edc78> 17634
 <d87edc94> 16715
@@ -17476,10 +17477,10 @@ endcidchar
 <e448> 18093
 <e449> 14420
 <e44a> 2510
-<e460> 18094
 endcidchar
 
 100 begincidchar
+<e460> 18094
 <e478> 3015
 <e479> 14466
 <e47a> 18098
@@ -17579,10 +17580,10 @@ endcidchar
 <ea13> 18257
 <ea14> 17350
 <ea1c> 15731
-<ea20> 17374
 endcidchar
 
 100 begincidchar
+<ea20> 17374
 <ea24> 15732
 <ea28> 15733
 <ea38> 17376
@@ -17682,10 +17683,10 @@ endcidchar
 <eb88> 18522
 <eb89> 15814
 <eb8a> 18523
-<eb8b> 15815
 endcidchar
 
 100 begincidchar
+<eb8b> 15815
 <eb8f> 15816
 <eb90> 18527
 <eb94> 16890
@@ -17785,10 +17786,10 @@ endcidchar
 <ed1a> 18677
 <ed1b> 16060
 <ed1c> 18678
-<ed1d> 16061
 endcidchar
 
 100 begincidchar
+<ed1d> 16061
 <ed1e> 18679
 <ed22> 18680
 <ed28> 1832
@@ -17888,10 +17889,10 @@ endcidchar
 <f4e2> 17887
 <f4e3> 17296
 <f4e4> 17888
-<f4e5> 17297
 endcidchar
 
-95 begincidchar
+96 begincidchar
+<f4e5> 17297
 <f4e6> 17889
 <f4f2> 17303
 <f4f3> 17896

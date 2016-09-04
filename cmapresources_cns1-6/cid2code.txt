@@ -1,4 +1,4 @@
-# cid2code.txt (Version 12/04/2015)
+# cid2code.txt (Version 09/03/2016)
 #
 # The data in this table contains nineteen tab-delimited columns of
 # information. The contents of this file supplement Technical Note 
@@ -64,15 +64,15 @@
 #   use of the UTF-8, UTF-16, and UTF-32 CMap files is recommended.)
 #
 # o Column 10: Character codes for the "UniCNS-UTF8-H" and
-#   "UniCNS-UTF8-V" CMaps (Unicode 8.0 UTF-8 encoding, proportional Latin
+#   "UniCNS-UTF8-V" CMaps (Unicode 10.0 UTF-8 encoding, proportional Latin
 #   characters).
 #
 # o Column 11: Character codes for the "UniCNS-UTF16-H" and
-#   "UniCNS-UTF16-V" CMaps (Unicode 8.0 UTF-16 encoding, proportional
+#   "UniCNS-UTF16-V" CMaps (Unicode 10.0 UTF-16 encoding, proportional
 #   Latin characters).
 #
 # o Column 12: Character codes for the "UniCNS-UTF32-H" and
-#   "UniCNS-UTF32-V" CMaps (Unicode 8.0 UTF-32 encoding, proportional
+#   "UniCNS-UTF32-V" CMaps (Unicode 10.0 UTF-32 encoding, proportional
 #   Latin characters).
 #
 # o Column 13: Character codes for the "ETHK-B5-H" and "ETHK-B5-V"
@@ -16411,7 +16411,7 @@ CID	B5	B5pc	ETen-B5	ETenms-B5	CNS1	CNS2	CNS-EUC	UniCNS-UCS2	UniCNS-UTF8	UniCNS-U
 16300	*	*	*	*	*	*	*	*	e98dae,ee97ab,eeb8ba	936e,e5eb,ee3a	0000936e,0000e5eb,0000ee3a	92c8,a05f	fe76	8e60	a05f	*	*	92c8,a05f
 16301	*	*	*	*	*	*	*	9b8f	e9ae8f,eeb8bb	9b8f,ee3b	00009b8f,0000ee3b	a060	fed6	90fb	a060	*	*	a060
 16302	*	*	*	*	*	*	*	87f5	e89fb5,eeb8bc	87f5,ee3c	000087f5,0000ee3c	a061	fdd6	915f	a061	*	*	a061
-16303	*	*	*	*	*	*	*	*	eeb8bd	ee3d	0000ee3d	a062	*	8fc5	a062	*	*	a062
+16303	*	*	*	*	*	*	*	*	f0adbcbc,eeb8bd	d877df3c,ee3d	0002df3c,0000ee3d	a062	*	8fc5	a062	*	*	a062
 16304	*	*	*	*	*	*	*	*	*	*	*	*	*	*	a063	*	*	*
 16305	*	*	*	*	*	*	*	8cf7	e8b3b7,eeb8bf	8cf7,ee3f	00008cf7,0000ee3f	a064	fe4d	8ee8	a064	*	*	a064
 16306	*	*	*	*	*	*	*	732c	e78cac,eeb980	732c,ee40	0000732c,0000ee40	a065	fced	91d8	a065	c868	fbda	a065
@@ -19264,3 +19264,4 @@ CID	B5	B5pc	ETen-B5	ETenms-B5	CNS1	CNS2	CNS-EUC	UniCNS-UCS2	UniCNS-UTF8	UniCNS-U
 19153	*	*	*	*	*	*	*	*	e68b81	62c1	000062c1	87dd	*	*	*	*	*	87dd
 19154	*	*	*	*	*	*	*	*	e781ae	706e	0000706e	87de	*	*	*	*	*	87de
 19155	*	*	*	*	*	*	*	*	e9bf8b	9fcb	00009fcb	87df	*	*	*	*	*	87df
+# EOF

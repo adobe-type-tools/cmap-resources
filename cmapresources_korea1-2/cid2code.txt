@@ -18526,3 +18526,4 @@ CID	KSC	KSC-EUC	KSCpc-EUC	KSCms-UHC	KSCms-UHC-HW	KSC-Johab	UniKS-UCS2	UniKS-UTF8
 18349	*	*	*	*	*	*	*	*	*	*
 18350	*	*	*	*	*	*	*	*	*	*
 18351	*	*	*	*	*	*	*	*	*	*
+# EOF

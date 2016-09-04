@@ -105,36 +105,36 @@
 #   files is recommended.)
 #
 # o Column 20: Character codes for the "UniJIS-UTF8-H" and
-#   "UniJIS-UTF8-V" CMaps (Unicode 6.1 UTF-8 encoding, proportional
+#   "UniJIS-UTF8-V" CMaps (Unicode 10.0 UTF-8 encoding, proportional
 #   Latin characters).
 #
 # o Column 21: Character codes for the "UniJIS-UTF16-H" and
-#   "UniJIS-UTF16-V" CMaps (Unicode 6.1 UTF-16 encoding, proportional
+#   "UniJIS-UTF16-V" CMaps (Unicode 10.0 UTF-16 encoding, proportional
 #   Latin characters).
 #
 # o Column 22: Character codes for the "UniJIS-UTF32-H" and
-#   "UniJIS-UTF32-V" CMaps (Unicode 6.1 UTF-32 encoding, proportional
+#   "UniJIS-UTF32-V" CMaps (Unicode 10.0 UTF-32 encoding, proportional
 #   Latin characters).
 #
 # o Column 23: Character codes for the "UniJIS2004-UTF8-H" and
-#   "UniJIS2004-UTF8-V" CMaps (Unicode 6.1 UTF-8 encoding, proportional
+#   "UniJIS2004-UTF8-V" CMaps (Unicode 10.0 UTF-8 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 24: Character codes for the "UniJIS2004-UTF16-H" and
-#   "UniJIS2004-UTF16-V" CMaps (Unicode 6.1 UTF-16 encoding, proportional
+#   "UniJIS2004-UTF16-V" CMaps (Unicode 10.0 UTF-16 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 25: Character codes for the "UniJIS2004-UTF32-H" and
-#   "UniJIS2004-UTF32-V" CMaps (Unicode 6.1 UTF-32 encoding, proportional
+#   "UniJIS2004-UTF32-V" CMaps (Unicode 10.0 UTF-32 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 26: Character codes for the "UniJISX0213-UTF32-H" and
-#   "UniJISX0213-UTF32-V" CMaps (Unicode 6.1 UTF-32 encoding,
+#   "UniJISX0213-UTF32-V" CMaps (Unicode 10.0 UTF-32 encoding,
 #   proportional Latin characters, some proportional JIS X 0208:1997
 #   characters).
 #
 # o Column 27: Character codes for the "UniJISX02132004-UTF32-H" and
-#   "UniJISX02132004-UTF32-V" CMaps (Unicode 6.1 UTF-32 encoding,
+#   "UniJISX02132004-UTF32-V" CMaps (Unicode 10.0 UTF-32 encoding,
 #   proportional Latin characters, some proportional JIS X 0208:1997
 #   characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
