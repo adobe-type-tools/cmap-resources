@@ -3,9 +3,9 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniJIS2004-UTF16-H)
 %%Title: (UniJIS2004-UTF16-H Adobe Japan1 6)
-%%Version: 1.015
+%%Version: 1.016
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2016 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-2017 Adobe Systems Incorporated.
 %%Copyright: All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
@@ -55,7 +55,7 @@ begincmap
 end def
 
 /CMapName /UniJIS2004-UTF16-H def
-/CMapVersion 1.015 def
+/CMapVersion 1.016 def
 /CMapType 1 def
 
 /XUID [1 10 25619] def
@@ -13457,12 +13457,13 @@ endcidchar
 <d86edc0d> 20256
 <d86edc17> 20260
 <d86edc1a> 14278
+<d875dd44> 13834
 <d878de78> 14187
 <d879deea> 14226
-<d87edc04> 15388
 endcidchar
 
 100 begincidchar
+<d87edc04> 15388
 <d87edc0f> 7814
 <d87edc15> 20061
 <d87edc18> 7817
@@ -13562,10 +13563,10 @@ endcidchar
 <fa36> 7651
 <fa37> 13366
 <fa38> 13333
-<fa39> 13384
 endcidchar
 
-88 begincidchar
+89 begincidchar
+<fa39> 13384
 <fa3a> 13387
 <fa3b> 13361
 <fa3c> 16837
