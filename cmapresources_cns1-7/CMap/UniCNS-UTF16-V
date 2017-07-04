@@ -4,10 +4,10 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%IncludeResource: CMap (UniCNS-UTF16-H)
 %%BeginResource: CMap (UniCNS-UTF16-V)
-%%Title: (UniCNS-UTF16-V Adobe CNS1 6)
-%%Version: 1.007
+%%Title: (UniCNS-UTF16-V Adobe CNS1 7)
+%%Version: 1.008
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2015 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-2017 Adobe Systems Incorporated.
 %%Copyright: All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
@@ -55,11 +55,11 @@ begincmap
 /CIDSystemInfo 3 dict dup begin
   /Registry (Adobe) def
   /Ordering (CNS1) def
-  /Supplement 6 def
+  /Supplement 7 def
 end def
 
 /CMapName /UniCNS-UTF16-V def
-/CMapVersion 1.007 def
+/CMapVersion 1.008 def
 /CMapType 1 def
 
 /XUID [1 10 25592] def

@@ -1,12 +1,12 @@
-# cid2code.txt (Version 09/03/2016)
+# cid2code.txt (Version 07/04/2017)
 #
 # The data in this table contains nineteen tab-delimited columns of
 # information. The contents of this file supplement Technical Note 
-# #5080 "Adobe-CNS1-6 Character Collection for CID-Keyed Fonts":
+# #5080 "Adobe-CNS1-7 Character Collection for CID-Keyed Fonts":
 #
 # http://www.adobe.com/devnet/font/
 #
-# This table contains lists CIDs 0 through 19155 in the first column,
+# This table contains lists CIDs 0 through 19178 in the first column,
 # and provides additional columns that indicate whether a CID is used
 # in a particular CMap file, and if so, provides the encoded value.
 # Here are some common aspects of the data that you will find in this
@@ -14760,7 +14760,7 @@ CID	B5	B5pc	ETen-B5	ETenms-B5	CNS1	CNS2	CNS-EUC	UniCNS-UCS2	UniCNS-UTF8	UniCNS-U
 14649	*	*	*	*	*	*	*	9ec1	e9bb81,ee94b8	9ec1,e538	00009ec1,0000e538	91b2	*	*	91b2	*	*	91b2
 14650	*	*	*	*	*	*	*	3b60	e3ada0,ee94b9	3b60,e539	00003b60,0000e539	91b3	*	*	91b3	*	*	91b3
 14651	*	*	*	*	*	*	*	39e5	e3a7a5,ee94ba	39e5,e53a	000039e5,0000e53a	91b4	*	*	91b4	*	*	91b4
-14652	*	*	*	*	*	*	*	3d1d	e3b49d,ee94bb	3d1d,e53b	00003d1d,0000e53b	91b5	*	*	91b5	*	*	91b5
+14652	*	*	*	*	*	*	*	3d1d	e3b49d,f0aa8fad,ee94bb	3d1d,d868dfed,e53b	00003d1d,0002a3ed,0000e53b	91b5	*	*	91b5	*	*	91b5
 14653	*	*	*	*	*	*	*	4f32	e4bcb2,ee94bc	4f32,e53c	00004f32,0000e53c	91b6	fb78	9168	91b6	c746	fa49	91b6
 14654	*	*	*	*	*	*	*	37be	e39ebe,ee94bd	37be,e53d	000037be,0000e53d	91b7	*	*	91b7	*	*	91b7
 14655	*	*	*	*	*	*	*	e53e	f0a8b0ab,ee94be	d863dc2b,e53e	00028c2b,0000e53e	91b8	*	*	91b8	*	*	91b8
@@ -18730,7 +18730,7 @@ CID	B5	B5pc	ETen-B5	ETenms-B5	CNS1	CNS2	CNS-EUC	UniCNS-UCS2	UniCNS-UTF8	UniCNS-U
 18619	*	*	*	*	*	*	*	7e9f	e7ba9f,eeb1b4	7e9f,ec74	00007e9f,0000ec74	9d70	*	*	*	*	*	9d70
 18620	*	*	*	*	*	*	*	ec75	f0a9bbb8,eeb1b5	d867def8,ec75	00029ef8,0000ec75	9d71	*	*	*	*	*	9d71
 18621	*	*	*	*	*	*	*	ec76	f0a9bca3,eeb1b6	d867df23,ec76	00029f23,0000ec76	9d72	*	*	*	*	*	9d72
-18622	*	*	*	*	*	*	*	4ca4	e4b2a4,eeb1b7	4ca4,ec77	00004ca4,0000ec77	9d73	*	*	*	*	*	9d73
+18622	*	*	*	*	*	*	*	4ca4	e4b2a4,e9bf90,eeb1b7	4ca4,9fd0,ec77	00004ca4,00009fd0,0000ec77	9d73	*	*	*	*	*	9d73
 18623	*	*	*	*	*	*	*	9547	e99587,eeb1b8	9547,ec78	00009547,0000ec78	9d74	*	*	*	*	*	9d74
 18624	*	*	*	*	*	*	*	ec79	f0aa8a93,eeb1b9	d868de93,ec79	0002a293,0000ec79	9d75	*	*	*	*	*	9d75
 18625	*	*	*	*	*	*	*	71a2	e786a2,eeb1ba	71a2,ec7a	000071a2,0000ec7a	9d76	*	*	*	*	*	9d76
@@ -19264,4 +19264,27 @@ CID	B5	B5pc	ETen-B5	ETenms-B5	CNS1	CNS2	CNS-EUC	UniCNS-UCS2	UniCNS-UTF8	UniCNS-U
 19153	*	*	*	*	*	*	*	*	e68b81	62c1	000062c1	87dd	*	*	*	*	*	87dd
 19154	*	*	*	*	*	*	*	*	e781ae	706e	0000706e	87de	*	*	*	*	*	87de
 19155	*	*	*	*	*	*	*	*	e9bf8b	9fcb	00009fcb	87df	*	*	*	*	*	87df
+19156	*	*	*	*	*	*	*	*	e58591	5151	00005151	*	*	*	*	*	*	*
+19157	*	*	*	*	*	*	*	*	e590bf	543f	0000543f	*	*	*	*	*	*	*
+19158	*	*	*	*	*	*	*	*	e5aaaa	5aaa	00005aaa	*	*	*	*	*	*	*
+19159	*	*	*	*	*	*	*	*	e682a6	60a6	000060a6	*	*	*	*	*	*	*
+19160	*	*	*	*	*	*	*	*	e684a0	6120	00006120	*	*	*	*	*	*	*
+19161	*	*	*	*	*	*	*	*	e68d9d	635d	0000635d	*	*	*	*	*	*	*
+19162	*	*	*	*	*	*	*	*	e6959a	655a	0000655a	*	*	*	*	*	*	*
+19163	*	*	*	*	*	*	*	*	e6a381	68c1	000068c1	*	*	*	*	*	*	*
+19164	*	*	*	*	*	*	*	*	e6b0b2	6c32	00006c32	*	*	*	*	*	*	*
+19165	*	*	*	*	*	*	*	*	e6b69a	6d9a	00006d9a	*	*	*	*	*	*	*
+19166	*	*	*	*	*	*	*	*	e785b4	7174	00007174	*	*	*	*	*	*	*
+19167	*	*	*	*	*	*	*	*	e7a88e	7a0e	00007a0e	*	*	*	*	*	*	*
+19168	*	*	*	*	*	*	*	*	e7b7bc	7dfc	00007dfc	*	*	*	*	*	*	*
+19169	*	*	*	*	*	*	*	*	e884b1	8131	00008131	*	*	*	*	*	*	*
+19170	*	*	*	*	*	*	*	*	e885bd	817d	0000817d	*	*	*	*	*	*	*
+19171	*	*	*	*	*	*	*	*	e897b4	85f4	000085f4	*	*	*	*	*	*	*
+19172	*	*	*	*	*	*	*	*	e89c95	8715	00008715	*	*	*	*	*	*	*
+19173	*	*	*	*	*	*	*	*	e8aaac	8aac	00008aac	*	*	*	*	*	*	*
+19174	*	*	*	*	*	*	*	*	e8bcbc	8f3c	00008f3c	*	*	*	*	*	*	*
+19175	*	*	*	*	*	*	*	*	e98696	9196	00009196	*	*	*	*	*	*	*
+19176	*	*	*	*	*	*	*	*	e98bad	92ed	000092ed	*	*	*	*	*	*	*
+19177	*	*	*	*	*	*	*	*	e996b2	95b2	000095b2	*	*	*	*	*	*	*
+19178	*	*	*	*	*	*	*	*	e9b187	9c47	00009c47	*	*	*	*	*	*	*
 # EOF

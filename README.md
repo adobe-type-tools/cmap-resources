@@ -13,7 +13,7 @@ Although originally designed for use with CIDFont resources, CMap resources are 
 This project includes the following CMap resources, grouped by character collection:
 
 *cmapresources_identity-0*: Adobe-Identity-0 (Special Purpose)  
-*cmapresources_cns1-6*: Adobe-CNS1-6 (Traditional Chinese, including Hong Kong SCS-2008)  
+*cmapresources_cns1-7*: Adobe-CNS1-7 (Traditional Chinese, including Hong Kong SCS-2016)  
 *cmapresources_gb1-5*: Adobe-GB1-5 (Simplified Chinese)  
 *cmapresources_japan1-6*: Adobe-Japan1-6 (Japanese)  
 *cmapresources_korea1-2*: Adobe-Korea1-2 (Korean)  
