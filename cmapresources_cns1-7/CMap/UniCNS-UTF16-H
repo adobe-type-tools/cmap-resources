@@ -3,7 +3,7 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniCNS-UTF16-H)
 %%Title: (UniCNS-UTF16-H Adobe CNS1 7)
-%%Version: 1.016
+%%Version: 1.017
 %%Copyright: -----------------------------------------------------------
 %%Copyright: Copyright 1990-2017 Adobe Systems Incorporated.
 %%Copyright: All rights reserved.
@@ -55,7 +55,7 @@ begincmap
 end def
 
 /CMapName /UniCNS-UTF16-H def
-/CMapVersion 1.016 def
+/CMapVersion 1.017 def
 /CMapType 1 def
 
 /XUID [1 10 25591] def
@@ -313,7 +313,7 @@ endcidchar
 <2f1c> 614
 <2f1d> 633
 <2f1e> 6005
-<2f21> 548
+<2f21> 17632
 <2f22> 548
 <2f27> 549
 <2f2c> 6006
@@ -2942,13 +2942,13 @@ endcidchar
 <58fd> 4010
 <58fe> 9803
 <58ff> 10409
-<5902> 548
+<5902> 17632
 <5903> 6021
 <5904> 17738
 <5905> 17817
 <5906> 6231
 <5907> 17739
-<590a> 17632
+<590a> 548
 <590c> 6468
 <590d> 6812
 <590e> 7276

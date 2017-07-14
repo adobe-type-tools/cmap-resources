@@ -1,4 +1,4 @@
-# cid2code.txt (Version 07/04/2017)
+# cid2code.txt (Version 07/14/2017)
 #
 # The data in this table contains nineteen tab-delimited columns of
 # information. The contents of this file supplement Technical Note 
@@ -656,7 +656,7 @@ CID	B5	B5pc	ETen-B5	ETenms-B5	CNS1	CNS2	CNS-EUC	UniCNS-UCS2	UniCNS-UTF8	UniCNS-U
 545	*	*	c6c7	*	2737	*	8ea1a7b7,a7b7,8ea1a7b7v,a7b7v	5338	e2bc96,e58cb8,ef9b97	2f16,5338,f6d7	00002f16,00005338,0000f6d7	c6c7	*	*	*	*	*	c6c7
 546	*	*	c6c8	*	273a	*	8ea1a7ba,a7ba,8ea1a7bav,a7bav	5369	e2bc99,e58da9,ef9b98	2f19,5369,f6d8	00002f19,00005369,0000f6d8	c6c8	*	*	*	*	*	c6c8
 547	*	*	c6c9	*	273c	*	8ea1a7bc,a7bc,8ea1a7bcv,a7bcv	53b6	e2bc9b,e58eb6,ef9b99	2f1b,53b6,f6d9	00002f1b,000053b6,0000f6d9	c6c9	*	*	*	*	*	c6c9
-548	*	*	c6ca	*	2742	*	8ea1a7c2,a7c2,8ea1a7c2v,a7c2v	5902,590a	e2bca1,e2bca2,e5a482,ef9b9a	2f21,2f22,5902,f6da	00002f21,00002f22,00005902,0000f6da	c6ca	*	*	*	*	*	c6ca
+548	*	*	c6ca	*	2742	*	8ea1a7c2,a7c2,8ea1a7c2v,a7c2v	5902,590a	e2bca2,e5a48a,ef9b9a	2f22,590a,f6da	00002f22,0000590a,0000f6da	c6ca	*	*	*	*	*	c6ca
 549	*	*	c6cb	*	2747	*	8ea1a7c7,a7c7,8ea1a7c7v,a7c7v	5b80	e2bca7,e5ae80,ef9b9b	2f27,5b80,f6db	00002f27,00005b80,0000f6db	c6cb	*	*	*	*	*	c6cb
 550	*	*	c6cc	*	274e	*	8ea1a7ce,a7ce,8ea1a7cev,a7cev	5ddb	e2bcae,e5b79b,ef9b9c	2f2e,5ddb,f6dc	00002f2e,00005ddb,0000f6dc	c6cc	*	91b0	*	*	*	c6cc
 551	*	*	c6cd	*	2753	*	8ea1a7d3,a7d3,8ea1a7d3v,a7d3v	2f33,5e7a	e5b9ba,e2bcb3,ef9b9d	5e7a,2f33,f6dd	00005e7a,00002f33,0000f6dd	c6cd	*	*	*	*	*	c6cd
@@ -17740,7 +17740,7 @@ CID	B5	B5pc	ETen-B5	ETenms-B5	CNS1	CNS2	CNS-EUC	UniCNS-UCS2	UniCNS-UTF8	UniCNS-U
 17629	*	*	*	*	*	*	*	f317	e3878d,ef8c97	31cd,f317	000031cd,0000f317	8854	*	*	*	*	*	8854
 17630	*	*	*	*	*	*	*	f318	e3878e,ef8c98	31ce,f318	000031ce,0000f318	8855	*	*	*	*	*	8855
 17631	*	*	*	*	*	*	*	*	ef94b8	f538	0000f538	8bc0	*	*	*	*	*	8bc0
-17632	*	*	*	*	*	*	*	*	e5a48a,ef94b9	590a,f539	0000590a,0000f539	8bc1	*	*	*	*	*	8bc1
+17632	*	*	*	*	*	*	*	*	e2bca1,e5a482,ef94b9	2f21,5902,f539	00002f21,00005902,0000f539	8bc1	*	*	*	*	*	8bc1
 17633	*	*	*	*	*	*	*	f53a	f0a1af81,ef94ba	d846dfc1,f53a	00021bc1,0000f53a	8bc2	*	*	*	*	*	8bc2
 17634	*	*	*	*	*	*	*	f53b	f0afa1b8,ef94bb	d87edc78,f53b	0002f878,0000f53b	8bc3	*	*	*	*	*	8bc3
 17635	*	*	*	*	*	*	*	9751	e2bead,e99d91,ef94bc	2fad,9751,f53c	00002fad,00009751,0000f53c	8bc4	*	*	*	*	*	8bc4
