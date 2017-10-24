@@ -1,10 +1,10 @@
-# cid2code.txt (Version 10/29/2010)
+# cid2code.txt (Version 10/24/2017)
 #
 # The data in this table contains 14 tab-delimited columns of
-# information. The contents of this file supplement Technical Note
-# #5079 "Adobe-GB1-5 Character Collection for CID-Keyed Fonts":
+# information. The contents of this file supplement "The Adobe-GB1-5
+# Character Collection" (formerly Adobe Tech Note #5079):
 #
-# http://www.adobe.com/devnet/font/
+# https://github.com/adobe-type-tools/Adobe-GB1/
 #
 # This table contains lists CIDs 0 through 30283 in the first column,
 # and provides additional columns that indicate whether a CID is used
@@ -198,8 +198,8 @@ CID	GB	GB-EUC	GBpc-EUC	GBT	GBT-EUC	GBTpc-EUC	GBK-EUC	GBKp-EUC	GBK2K	UniGB-UCS2	U
 112	2131	a1b1	a1b1	2131	a1b1	a1b1	a1b1	a1b1	a1b1	201d	e2809d	201d	0000201d
 113	2132	a1b2	a1b2	2132	a1b2	a1b2	a1b2	a1b2	a1b2	3014	e38094	3014	00003014
 114	2133	a1b3	a1b3	2133	a1b3	a1b3	a1b3	a1b3	a1b3	3015	e38095	3015	00003015
-115	2134	a1b4	a1b4	2134	a1b4	a1b4	a1b4	a1b4	a1b4	3008	e38088	3008	00003008
-116	2135	a1b5	a1b5	2135	a1b5	a1b5	a1b5	a1b5	a1b5	3009	e38089	3009	00003009
+115	2134	a1b4	a1b4	2134	a1b4	a1b4	a1b4	a1b4	a1b4	3008	e28ca9,e38088	2329,3008	00002329,00003008
+116	2135	a1b5	a1b5	2135	a1b5	a1b5	a1b5	a1b5	a1b5	3009	e28caa,e38089	232a,3009	0000232a,00003009
 117	2136	a1b6	a1b6	2136	a1b6	a1b6	a1b6	a1b6	a1b6	300a	e3808a	300a	0000300a
 118	2137	a1b7	a1b7	2137	a1b7	a1b7	a1b7	a1b7	a1b7	300b	e3808b	300b	0000300b
 119	2138	a1b8	a1b8	2138	a1b8	a1b8	a1b8	a1b8	a1b8	300c	e3808c	300c	0000300c
@@ -7799,7 +7799,7 @@ CID	GB	GB-EUC	GBpc-EUC	GBT	GBT-EUC	GBTpc-EUC	GBK-EUC	GBKp-EUC	GBK2K	UniGB-UCS2	U
 7713	*	*	fd	*	*	fd	*	*	*	*	c2a9	00a9	000000a9
 7714	*	*	fe	*	*	fe	*	*	*	*	e284a2	2122	00002122
 7715	*	*	ff	*	*	ff	*	*	*	*	*	*	*
-7716	*	20	*	*	20	*	20	*	*	*	*	*	*
+7716	*	20	*	*	20	*	20	*	*	*	e28082	2002	00002002
 7717	*	*	*	3028	b0a8	b0a8	b07d	b07d	b07d	769a	e79a9a	769a	0000769a
 7718	*	*	*	302a	b0aa	b0aa	cc40	cc40	cc40	85f9	e897b9	85f9	000085f9
 7719	*	*	*	302d	b0ad	b0ad	b54b	b54b	b54b	7919	e7a499	7919	00007919

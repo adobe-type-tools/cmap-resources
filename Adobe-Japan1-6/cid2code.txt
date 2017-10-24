@@ -1,10 +1,11 @@
-# cid2code.txt (Version 07/03/2017)
+# cid2code.txt (Version 10/24/2017)
 #
 # The data in this table contains 32 tab-delimited columns of
-# information. The contents of this file supplement Technical Notes
-# #5078 "The Adobe-Japan1-6 Character Collection":
+# information. The contents of this file supplement "The
+# Adobe-Japan1-6 Character Collection" (formerly Adobe Tech Note
+# 5078):
 #
-# http://www.adobe.com/devnet/font.html
+# https://github.com/adobe-type-tools/Adobe-Japan1/
 #
 # This table contains lists CIDs 0 through 23057 in the first column,
 # and provides additional columns that indicate whether a CID is used

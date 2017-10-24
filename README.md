@@ -13,9 +13,9 @@ Although originally designed for use with CIDFont resources, CMap resources are 
 This project includes the following CMap resources, grouped by character collection:
 
 *Adobe-Identity-0*: Adobe-Identity-0 (Special Purpose)  
-*Adobe-CNS1-7*: Adobe-CNS1-7 (Traditional Chinese, including Hong Kong SCS-2016)  
-*Adobe-GB1-5*: Adobe-GB1-5 (Simplified Chinese)  
-*Adobe-Japan1-6*: Adobe-Japan1-6 (Japanese)  
+*Adobe-CNS1-7*: [Adobe-CNS1-7](https://github.com/adobe-type-tools/Adobe-CNS1/) (Traditional Chinese, including Hong Kong SCS-2016)  
+*Adobe-GB1-5*: [Adobe-GB1-5](https://github.com/adobe-type-tools/Adobe-GB1/) (Simplified Chinese)  
+*Adobe-Japan1-6*: [Adobe-Japan1-6](https://github.com/adobe-type-tools/Adobe-Japan1/) (Japanese)  
 *Adobe-Korea1-2*: Adobe-Korea1-2 (Korean)  
 *deprecated/Adobe-Japan2-0*: Adobe-Japan2-0 (Japanese, for JIS X 0212-1990 only; Deprecated and replaced by Adobe-Japan1-6)
 

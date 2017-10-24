@@ -1,10 +1,10 @@
-# cid2code.txt (Version 07/14/2017)
+# cid2code.txt (Version 10/24/2017)
 #
 # The data in this table contains nineteen tab-delimited columns of
-# information. The contents of this file supplement Technical Note 
-# #5080 "Adobe-CNS1-7 Character Collection for CID-Keyed Fonts":
+# information. The contents of this file supplement "The Adobe-CNS1-7
+# Character Collection" (formerly Adobe Tech Note #5080):
 #
-# http://www.adobe.com/devnet/font/
+# https://github.com/adobe-type-tools/Adobe-CNS1/
 #
 # This table contains lists CIDs 0 through 19178 in the first column,
 # and provides additional columns that indicate whether a CID is used
@@ -256,8 +256,8 @@ CID	B5	B5pc	ETen-B5	ETenms-B5	CNS1	CNS2	CNS-EUC	UniCNS-UCS2	UniCNS-UTF8	UniCNS-U
 145	a16e	a16e	a16e	*	214f	*	8ea1a1cf,a1cf	300b	e3808b	300b	0000300b	a16e	a16e	a16e	a16e	a16e	a16e	a16e
 146	a16f,a16dv	a16f,a16dv	a16f,a16dv	a16dv	2150,214ev	*	8ea1a1d0,a1d0,8ea1a1cev,8ea1a1d0v,a1cev,a1d0v	fe3d,300av	efb8bd,e3808av	fe3d,300av	0000fe3d,0000300av	a16f,a16dv	a16f,a16dv	a16f,a16dv	a16f,a16dv	a16f,a16dv	a16f,a16dv	a16f,a16dv
 147	a170,a16ev	a170,a16ev	a170,a16ev	a16ev	2151,214fv	*	8ea1a1d1,a1d1,8ea1a1cfv,8ea1a1d1v,a1cfv,a1d1v	fe3e,300bv	efb8be,e3808bv	fe3e,300bv	0000fe3e,0000300bv	a170,a16ev	a170,a16ev	a170,a16ev	a170,a16ev	a170,a16ev	a170,a16ev	a170,a16ev
-148	a171	a171	a171	*	2152	*	8ea1a1d2,a1d2	3008	e38088	3008	00003008	a171	a171	a171	a171	a171	a171	a171
-149	a172	a172	a172	*	2153	*	8ea1a1d3,a1d3	3009	e38089	3009	00003009	a172	a172	a172	a172	a172	a172	a172
+148	a171	a171	a171	*	2152	*	8ea1a1d2,a1d2	3008	e28ca9,e38088	2329,3008	00002329,00003008	a171	a171	a171	a171	a171	a171	a171
+149	a172	a172	a172	*	2153	*	8ea1a1d3,a1d3	3009	e28caa,e38089	232a,3009	0000232a,00003009	a172	a172	a172	a172	a172	a172	a172
 150	a173,a171v	a173,a171v	a173,a171v	a171v	2154,2152v	*	8ea1a1d4,a1d4,8ea1a1d2v,8ea1a1d4v,a1d2v,a1d4v	fe3f,3008v	efb8bf,e38088v	fe3f,3008v	0000fe3f,00003008v	a173,a171v	a173,a171v	a173,a171v	a173,a171v	a173,a171v	a173,a171v	a173,a171v
 151	a174,a172v	a174,a172v	a174,a172v	a172v	2155,2153v	*	8ea1a1d5,a1d5,8ea1a1d3v,8ea1a1d5v,a1d3v,a1d5v	fe40,3009v	efb980,e38089v	fe40,3009v	0000fe40,00003009v	a174,a172v	a174,a172v	a174,a172v	a174,a172v	a174,a172v	a174,a172v	a174,a172v
 152	a175	a175	a175	*	2156	*	8ea1a1d6,a1d6	300c	e3808c	300c	0000300c	a175	a175	a175	a175	a175	a175	a175
@@ -13756,7 +13756,7 @@ CID	B5	B5pc	ETen-B5	ETenms-B5	CNS1	CNS2	CNS-EUC	UniCNS-UCS2	UniCNS-UTF8	UniCNS-U
 13645	f9d5	f9d5	f9d5	*	*	7244	8ea2f2c4,8ea2f2c4v	9f98	e9be98	9f98	00009f98	f9d5	f9d5	f9d5	f9d5	f9d5	f9d5	f9d5
 13646	a14bv	a14bv	a14bv	a14bv	212cv	*	8ea1a1acv,a1acv	*	efb899	fe19	0000fe19	a14bv	a14bv	a14bv	a14bv	a14bv	a14bv	a14bv
 13647	a1e3v	a1e3v	a1e3v	*	2244v	*	8ea1a2c4v,a2c4v	*	*	*	*	a1e3v	a1e3v	a1e3v	a1e3v	a1e3v	a1e3v	a1e3v
-13648	20	*	20	*	*	*	20,20v	*	*	*	*	*	*	*	*	*	*	*
+13648	20	*	20	*	*	*	20,20v	*	e28082	2002	00002002	*	*	*	*	*	*	*
 13649	21	*	21	*	*	*	21,21v	*	*	*	*	*	*	*	*	*	*	*
 13650	22	*	22	*	*	*	22,22v	*	*	*	*	*	*	*	*	*	*	*
 13651	23	*	23	*	*	*	23,23v	*	*	*	*	*	*	*	*	*	*	*
@@ -14447,7 +14447,7 @@ CID	B5	B5pc	ETen-B5	ETenms-B5	CNS1	CNS2	CNS-EUC	UniCNS-UCS2	UniCNS-UTF8	UniCNS-U
 14336	*	*	*	*	*	*	*	8602	e89882,ee8fb1	8602,e3f1	00008602,0000e3f1	8fa5	fdf8	8ee3	8fa5	*	*	8fa5
 14337	*	*	*	*	*	*	*	e3f2	f0a19682,ee8fb2	d845dd82,e3f2	00021582,0000e3f2	8fa6	*	*	8fa6	*	*	8fa6
 14338	*	*	*	*	*	*	*	e3f3	f0a7838d,ee8fb3	d85cdccd,e3f3	000270cd,0000e3f3	8fa7	*	*	8fa7	*	*	8fa7
-14339	*	*	*	*	*	*	*	e3f4	f0afa6b2,ee8fb4	d87eddb2,e3f4	0002f9b2,0000e3f4	8fa8	*	*	8fa8	*	*	8fa8
+14339	*	*	*	*	*	*	*	e3f4	f0a783b0,f0afa6b2,ee8fb4	d85cdcf0,d87eddb2,e3f4	000270f0,0002f9b2,0000e3f4	8fa8	*	*	8fa8	*	*	8fa8
 14340	*	*	*	*	*	*	*	456a	e495aa,ee8fb5	456a,e3f5	0000456a,0000e3f5	8fa9	*	*	8fa9	*	*	8fa9
 14341	*	*	*	*	*	*	*	8628	e898a8,ee8fb6	8628,e3f6	00008628,0000e3f6	8faa	*	*	8faa	*	*	8faa
 14342	*	*	*	*	*	*	*	3648	e39988,ee8fb7	3648,e3f7	00003648,0000e3f7	8fab	*	*	8fab	*	*	8fab
