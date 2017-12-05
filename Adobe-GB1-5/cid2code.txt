@@ -1,4 +1,4 @@
-# cid2code.txt (Version 10/24/2017)
+# cid2code.txt (Version 12/05/2017)
 #
 # The data in this table contains 14 tab-delimited columns of
 # information. The contents of this file supplement "The Adobe-GB1-5
@@ -817,10 +817,10 @@ CID	GB	GB-EUC	GBpc-EUC	GBT	GBT-EUC	GBTpc-EUC	GBK-EUC	GBKp-EUC	GBK2K	UniGB-UCS2	U
 731	2864	a8e4	a8e4	2864	a8e4	a8e4	a8e4	a8e4	a8e4	3124	e384a4	3124	00003124
 732	2865	a8e5	a8e5	2865	a8e5	a8e5	a8e5	a8e5	a8e5	3125	e384a5	3125	00003125
 733	2866	a8e6	a8e6	2866	a8e6	a8e6	a8e6	a8e6	a8e6	3126	e384a6	3126	00003126
-734	2867	a8e7	a8e7	2867	a8e7	a8e7	a8e7	a8e7	a8e7	3127	e384a7	3127	00003127
+734	2867	a8e7	a8e7	2867	a8e7	a8e7	a8e7	a8e7	a8e7	3127	*	*	*
 735	2868	a8e8	a8e8	2868	a8e8	a8e8	a8e8	a8e8	a8e8	3128	e384a8	3128	00003128
 736	2869	a8e9	a8e9	2869	a8e9	a8e9	a8e9	a8e9	a8e9	3129	e384a9	3129	00003129
-737	286a	a8ea	a8ea	286a	a8ea	a8ea	a8ea	a8ea	a8ea	*	*	*	*
+737	286a	a8ea	a8ea	286a	a8ea	a8ea	a8ea	a8ea	a8ea	*	e384a7	3127	00003127
 738	2924	a9a4	a9a4	2924	a9a4	a9a4	a9a4	a9a4	a9a4	2500	e29480	2500	00002500
 739	2925	a9a5	a9a5	2925	a9a5	a9a5	a9a5	a9a5	a9a5	2501	e29481	2501	00002501
 740	2926	a9a6	a9a6	2926	a9a6	a9a6	a9a6	a9a6	a9a6	2502	e29482	2502	00002502
