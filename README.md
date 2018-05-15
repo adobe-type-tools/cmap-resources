@@ -6,7 +6,7 @@ CMap (*Character Map*) resources are used to unidirectionally map character code
 
 A character collection is sometimes referred to as an **ROS**, which is an abbreviation for the three elements of the /CIDSystemInfo dictionary, specifically the **/Registry** string, the **/Ordering** string, and the **/Supplement** value (an integer). When fully specified, the three elements are separate using single hyphens, such as **Adobe-Japan1-6** (broken down into /Registry = *Adobe*, /Ordering = *Japan1*, and /Supplement = *6*).
 
-Although originally designed for use with CIDFont resources, CMap resources are also used for other purposes, such as by the [AFDKO](http://www.adobe.com/devnet/opentype/afdko.html) *makeotf* tool for building 'cmap' tables for OpenType fonts when the source font is a CIDFont resource.
+Although originally designed for use with CIDFont resources, CMap resources are also used for other purposes, such as by the [AFDKO](https://github.com/adobe-type-tools/afdko) *makeotf* tool for building 'cmap' tables for OpenType fonts when the source font is a CIDFont resource.
 
 ## Contents
 
@@ -16,7 +16,8 @@ This project includes the following CMap resources, grouped by character collect
 *Adobe-CNS1-7*: [Adobe-CNS1-7](https://github.com/adobe-type-tools/Adobe-CNS1/) (Traditional Chinese, including Hong Kong SCS-2016)  
 *Adobe-GB1-5*: [Adobe-GB1-5](https://github.com/adobe-type-tools/Adobe-GB1/) (Simplified Chinese)  
 *Adobe-Japan1-6*: [Adobe-Japan1-6](https://github.com/adobe-type-tools/Adobe-Japan1/) (Japanese)  
-*Adobe-Korea1-2*: Adobe-Korea1-2 (Korean)  
+*Adobe-Korea1-2*: [Adobe-Korea1-2](https://github.com/adobe-type-tools/Adobe-KR/raw/master/5093.Adobe-Korea1-2.pdf) (Korean)  
+*Adobe-KR-9*: [Adobe-KR-9 **Beta Version 2018-05-15**](https://github.com/adobe-type-tools/Adobe-KR/) (Korean)  
 *deprecated/Adobe-Japan2-0*: Adobe-Japan2-0 (Japanese, for JIS X 0212-1990 only; Deprecated and replaced by Adobe-Japan1-6)
 
 The *VERSIONS.txt* file specifies the current version of each CMap resource.
@@ -25,7 +26,7 @@ Each collection of CMap resources includes a *cid2code.txt* file that provides t
 
 ## CMap Resources Versus 'cmap' Tables
 
-CMap resources should not be confused with 'cmap' tables of sfnt-based fonts, such as OpenType and TrueType. While they are functionally similar, in that both unidirectionally map character codes, a 'cmap' table maps them to GIDs (*Glyph IDs*). For some fonts, such as OpenType fonts that are based on one of these character collections and include every glyph, CIDs can equal GIDs, but it is not guaranteed, thus the importance of the distinction.
+CMap resources should not be confused with 'cmap' tables of sfnt-based fonts, such as OpenType and TrueType. While they are functionally similar, in that both unidirectionally map character codes, a &#x27;[cmap](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap)&#x27; table maps them to GIDs (*Glyph IDs*). For some fonts, such as OpenType fonts that are based on one of these character collections and include every glyph, CIDs can equal GIDs, but it is not guaranteed, thus the importance of the distinction.
 
 ## Compiling/Decompiling CMap Resources
 
