@@ -3,7 +3,7 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (Identity)
 %%Title: (Identity Adobe KR 1)
-%%Version: 1.000
+%%Version: 1.001
 %%Copyright: -----------------------------------------------------------
 %%Copyright: Copyright 1990-2018 Adobe Systems Incorporated.
 %%Copyright: All rights reserved.
@@ -55,12 +55,12 @@ begincmap
 end def
 
 /CMapName /Adobe-KR-1 def
-/CMapVersion 1.000 def
+/CMapVersion 1.001 def
 /CMapType 1 def
 
 /WMode 0 def
 
-/CIDCount 4613 def
+/CIDCount 4637 def
 
 1 begincodespacerange
   <0000> <12FF>
@@ -85,7 +85,7 @@ endcodespacerange
 <0f00> <0fff> 3840
 <1000> <10ff> 4096
 <1100> <11ff> 4352
-<1200> <1204> 4608
+<1200> <121c> 4608
 endcidrange
 endcmap
 CMapName currentdict /CMap defineresource pop

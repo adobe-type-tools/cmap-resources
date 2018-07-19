@@ -17,8 +17,8 @@ This project includes the following CMap resources, grouped by character collect
 *Adobe-GB1-5*: [Adobe-GB1-5](https://github.com/adobe-type-tools/Adobe-GB1/) (Simplified Chinese)  
 *Adobe-Japan1-6*: [Adobe-Japan1-6](https://github.com/adobe-type-tools/Adobe-Japan1/) (Japanese)  
 *Adobe-Korea1-2*: [Adobe-Korea1-2](https://github.com/adobe-type-tools/Adobe-KR/raw/master/5093.Adobe-Korea1-2.pdf) (Korean)  
-*Adobe-KR-9*: [Adobe-KR-9 **Beta Version 2018-05-15**](https://github.com/adobe-type-tools/Adobe-KR/) (Korean)  
-*deprecated/Adobe-Japan2-0*: Adobe-Japan2-0 (Japanese, for JIS X 0212-1990 only; Deprecated and replaced by Adobe-Japan1-6)
+*Adobe-KR-9*: [Adobe-KR-9](https://github.com/adobe-type-tools/Adobe-KR/) (Korean)  
+*deprecated/Adobe-Japan2-0*: [Adobe-Japan2-0](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/5097.Adobe-Japan2-0.pdf) (Japanese, for JIS X 0212-1990 only; Deprecated and replaced by Adobe-Japan1-6)
 
 The *VERSIONS.txt* file specifies the current version of each CMap resource.
 
