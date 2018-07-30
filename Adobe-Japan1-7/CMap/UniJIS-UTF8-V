@@ -4,10 +4,10 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%IncludeResource: CMap (UniJIS-UTF8-H)
 %%BeginResource: CMap (UniJIS-UTF8-V)
-%%Title: (UniJIS-UTF8-V Adobe Japan1 6)
-%%Version: 13.006
+%%Title: (UniJIS-UTF8-V Adobe Japan1 7)
+%%Version: 13.007
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2015 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-2018 Adobe Systems Incorporated.
 %%Copyright: All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
@@ -55,11 +55,11 @@ begincmap
 /CIDSystemInfo 3 dict dup begin
   /Registry (Adobe) def
   /Ordering (Japan1) def
-  /Supplement 6 def
+  /Supplement 7 def
 end def
 
 /CMapName /UniJIS-UTF8-V def
-/CMapVersion 13.006 def
+/CMapVersion 13.007 def
 /CMapType 1 def
 
 /XUID [1 10 25440] def
@@ -169,7 +169,7 @@ end def
 <e3828e> 7927
 endcidchar
 
-79 begincidchar
+85 begincidchar
 <e3829b> 8272
 <e3829c> 8271
 <e382a0> 16331
@@ -184,6 +184,7 @@ endcidchar
 <e383a7> 7936
 <e383ae> 7937
 <e383bc> 7891
+<e38bbf> 23059
 <e38c80> 8350
 <e38c83> 8338
 <e38c84> 11960
@@ -237,9 +238,14 @@ endcidchar
 <e38d93> 12038
 <e38d94> 12035
 <e38d97> 8344
+<e38dbb> 12044
+<e38dbc> 12043
+<e38dbd> 12042
+<e38dbe> 12041
 <e38dbf> 8324
 <efbc8c> 8268
 <efbc8e> 8274
+<efbc9a> 12101
 <efbc9d> 7917
 <efbcbb> 7903
 <efbcbd> 7904

@@ -1,13 +1,12 @@
-# cid2code.txt (Version 10/24/2017)
+# cid2code.txt (Version 07/30/2018)
 #
 # The data in this table contains 32 tab-delimited columns of
 # information. The contents of this file supplement "The
-# Adobe-Japan1-6 Character Collection" (formerly Adobe Tech Note
-# 5078):
+# Adobe-Japan1-7 Character Collection":
 #
 # https://github.com/adobe-type-tools/Adobe-Japan1/
 #
-# This table contains lists CIDs 0 through 23057 in the first column,
+# This table contains lists CIDs 0 through 23059 in the first column,
 # and provides additional columns that indicate whether a CID is used
 # in a particular CMap file, and if so, provides the encoded
 # value. Here are some common aspects of the data that you will find
@@ -106,36 +105,36 @@
 #   files is recommended.)
 #
 # o Column 20: Character codes for the "UniJIS-UTF8-H" and
-#   "UniJIS-UTF8-V" CMaps (Unicode 10.0 UTF-8 encoding, proportional
+#   "UniJIS-UTF8-V" CMaps (Unicode 12.1 UTF-8 encoding, proportional
 #   Latin characters).
 #
 # o Column 21: Character codes for the "UniJIS-UTF16-H" and
-#   "UniJIS-UTF16-V" CMaps (Unicode 10.0 UTF-16 encoding, proportional
+#   "UniJIS-UTF16-V" CMaps (Unicode 12.1 UTF-16 encoding, proportional
 #   Latin characters).
 #
 # o Column 22: Character codes for the "UniJIS-UTF32-H" and
-#   "UniJIS-UTF32-V" CMaps (Unicode 10.0 UTF-32 encoding, proportional
+#   "UniJIS-UTF32-V" CMaps (Unicode 12.1 UTF-32 encoding, proportional
 #   Latin characters).
 #
 # o Column 23: Character codes for the "UniJIS2004-UTF8-H" and
-#   "UniJIS2004-UTF8-V" CMaps (Unicode 10.0 UTF-8 encoding, proportional
+#   "UniJIS2004-UTF8-V" CMaps (Unicode 12.1 UTF-8 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 24: Character codes for the "UniJIS2004-UTF16-H" and
-#   "UniJIS2004-UTF16-V" CMaps (Unicode 10.0 UTF-16 encoding, proportional
+#   "UniJIS2004-UTF16-V" CMaps (Unicode 12.1 UTF-16 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 25: Character codes for the "UniJIS2004-UTF32-H" and
-#   "UniJIS2004-UTF32-V" CMaps (Unicode 10.0 UTF-32 encoding, proportional
+#   "UniJIS2004-UTF32-V" CMaps (Unicode 12.1 UTF-32 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 26: Character codes for the "UniJISX0213-UTF32-H" and
-#   "UniJISX0213-UTF32-V" CMaps (Unicode 10.0 UTF-32 encoding,
+#   "UniJISX0213-UTF32-V" CMaps (Unicode 12.1 UTF-32 encoding,
 #   proportional Latin characters, some proportional JIS X 0208:1997
 #   characters).
 #
 # o Column 27: Character codes for the "UniJISX02132004-UTF32-H" and
-#   "UniJISX02132004-UTF32-V" CMaps (Unicode 10.0 UTF-32 encoding,
+#   "UniJISX02132004-UTF32-V" CMaps (Unicode 12.1 UTF-32 encoding,
 #   proportional Latin characters, some proportional JIS X 0208:1997
 #   characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
@@ -174,11 +173,10 @@
 #       Note, however, that these "Pro" CMap files are no longer being
 #       maintained, and the UTF ones should be used instead.
 #
-# NOTE: The UniJIS-UTF32-H and UniJISX0213-UTF32-H CMap resources each
-#       contain the same number of mappings, but the following 65
-#       mappings differ, with the UniJISX0213-UTF32-H mappings shown
-#       in parentheses (the UniJIS2004-UTF32-H and UniJISX02132004-
-#       UTF32-H CMap resources exhibit these same differences):
+# NOTE: The UniJIS2004-UTF32-H/UniJIS-UTF32-H and UniJISX02132004-
+#       UTF32-H/UniJISX0213-UTF32-H CMap resources each contain the
+#       same number of mappings, but the following 65 mappings differ,
+#       with the latter CMap resources' mappings shown in parentheses:
 #
 #       U+00A7  720 (106)
 #       U+00A8  647 (132)
@@ -246,34 +244,15 @@
 #       U+22A5  757 (15492)
 #       U+22BF  7630 (15882)
 #
-#       Also, UniJIS-UTF32-V contains 290 vertical mapping overrides,
-#       and UniJISX0213-UTF32-V contains 291. Among them, only nine
-#       vertical mapping overrides differ, as follows:
+#       Also, UniJIS2004-UTF32-V/UniJIS-UTF32-V contain 294 vertical
+#       mapping overrides, and UniJISX02132004-UTF32-V/UniJISX0213-
+#       UTF32-V contains 290. The following vertical mapping overrides
+#       are specific to the former CMap resources:
 #
-#       U+00B0  8269 (UniJIS-UTF32-V only)
-#       U+2010  7893 (UniJIS-UTF32-V only)
-#       U+2032  8273 (UniJIS-UTF32-V only)
-#       U+2033  8283 (UniJIS-UTF32-V only)
-#       U+337B  12044 (UniJISX0213-UTF32-V only)
-#       U+337C  12043 (UniJISX0213-UTF32-V only)
-#       U+337D  12042 (UniJISX0213-UTF32-V only)
-#       U+337E  12041 (UniJISX0213-UTF32-V only)
-#       U+FF1A  12101 (UniJISX0213-UTF32-V only)
-#
-#       When developing OpenType fonts, the UniJIS-UTF32-H CMap
-#       resource should be used with AFDKO, specifically the MakeOTF
-#       tool, as arguments to the "-ch" command-line options, under
-#       the following conditions:
-#
-#       1) If the advertised /Supplement is 4 or less, meaning that
-#          the highest CID is 15443.
-#
-#       2) If the advertised /Supplement is 5, and if all of the
-#          glyphs specific to the UniJISX0213-UTF32-H CMap resource,
-#          as listed above, are not included.
-#
-#       The UniJISX0213-UTF32-H CMap resource should be used if all
-#       23,057 CIDs are included.
+#       U+00B0  8269
+#       U+2010  7893
+#       U+2032  8273
+#       U+2033  8283
 #
 # NOTE: The "UniJIS2004-" (and "UniJISX02132004-UTF32-H") CMap
 #       resources use JIS X 0213:2004 protypical glyphs as the
@@ -12495,10 +12474,10 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 12038	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	3353v	3353v	e38d93v	3353v	00003353v	e38d93v	3353v	00003353v	00003353v	00003353v	*	*	*	*	*
 12039	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	3355v	3355v	e38d95v	3355v	00003355v	e38d95v	3355v	00003355v	00003355v	00003355v	*	*	*	*	*
 12040	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	3356v	3356v	e38d96v	3356v	00003356v	e38d96v	3356v	00003356v	00003356v	00003356v	*	*	*	*	*
-12041	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0000337ev	0000337ev	*	*	*	*	*
-12042	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0000337dv	0000337dv	*	*	*	*	*
-12043	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0000337cv	0000337cv	*	*	*	*	*
-12044	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0000337bv	0000337bv	*	*	*	*	*
+12041	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e38dbev	337ev	0000337ev	e38dbev	337ev	0000337ev	0000337ev	0000337ev	*	*	*	*	*
+12042	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e38dbdv	337dv	0000337dv	e38dbdv	337dv	0000337dv	0000337dv	0000337dv	*	*	*	*	*
+12043	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e38dbcv	337cv	0000337cv	e38dbcv	337cv	0000337cv	0000337cv	0000337cv	*	*	*	*	*
+12044	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e38dbbv	337bv	0000337bv	e38dbbv	337bv	0000337bv	0000337bv	0000337bv	*	*	*	*	*
 12045	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12046	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12047	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -12555,7 +12534,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 12098	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	2668	*	e299a8	2668	00002668	e299a8	2668	00002668	00002668	00002668	*	*	*	*	*
 12099	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	2669	*	e299a9	2669	00002669	e299a9	2669	00002669	00002669	00002669	*	*	*	*	*
 12100	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	266c	*	e299ac	266c	0000266c	e299ac	266c	0000266c	0000266c	0000266c	*	*	*	*	*
-12101	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0000ff1av	0000ff1av	*	*	*	*	*
+12101	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	efbc9av	ff1av	0000ff1av	efbc9av	ff1av	0000ff1av	0000ff1av	0000ff1av	*	*	*	*	*
 12102	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12103	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12104	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -23512,4 +23491,6 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 23055	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e9be96	9f96	00009f96	e9be96	9f96	00009f96	00009f96	00009f96	*	*	*	*	*
 23056	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e9bea1	9fa1	00009fa1	e9bea1	9fa1	00009fa1	00009fa1	00009fa1	*	*	*	*	*
 23057	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e9bea3	9fa3	00009fa3	e9bea3	9fa3	00009fa3	00009fa3	00009fa3	*	*	*	*	*
+23058	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e38bbf	32ff	000032ff	e38bbf	32ff	000032ff	000032ff	000032ff	*	*	*	*	*
+23059	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e38bbfv	32ffv	000032ffv	e38bbfv	32ffv	000032ffv	000032ffv	000032ffv	*	*	*	*	*
 # EOF

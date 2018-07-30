@@ -1,13 +1,13 @@
 %!PS-Adobe-3.0 Resource-CMap
 %%DocumentNeededResources: ProcSet (CIDInit)
-%%DocumentNeededResources: CMap (UniJISX0213-UTF32-H)
+%%DocumentNeededResources: CMap (UniJISX02132004-UTF32-H)
 %%IncludeResource: ProcSet (CIDInit)
-%%IncludeResource: CMap (UniJISX0213-UTF32-H)
-%%BeginResource: CMap (UniJISX0213-UTF32-V)
-%%Title: (UniJISX0213-UTF32-V Adobe Japan1 6)
-%%Version: 1.006
+%%IncludeResource: CMap (UniJISX02132004-UTF32-H)
+%%BeginResource: CMap (UniJISX02132004-UTF32-V)
+%%Title: (UniJISX02132004-UTF32-V Adobe Japan1 7)
+%%Version: 1.005
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2015 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-2018 Adobe Systems Incorporated.
 %%Copyright: All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
@@ -50,19 +50,19 @@
 
 begincmap
 
-/UniJISX0213-UTF32-H usecmap
+/UniJISX02132004-UTF32-H usecmap
 
 /CIDSystemInfo 3 dict dup begin
   /Registry (Adobe) def
   /Ordering (Japan1) def
-  /Supplement 6 def
+  /Supplement 7 def
 end def
 
-/CMapName /UniJISX0213-UTF32-V def
-/CMapVersion 1.006 def
+/CMapName /UniJISX02132004-UTF32-V def
+/CMapVersion 1.005 def
 /CMapType 1 def
 
-/XUID [1 10 25615] def
+/XUID [1 10 25634] def
 
 /WMode 1 def
 
@@ -169,7 +169,7 @@ end def
 <000030a1> 7928
 endcidchar
 
-79 begincidchar
+80 begincidchar
 <000030a3> 7929
 <000030a5> 7930
 <000030a7> 7931
@@ -180,6 +180,7 @@ endcidchar
 <000030e7> 7936
 <000030ee> 7937
 <000030fc> 7891
+<000032ff> 23059
 <00003300> 8350
 <00003303> 8338
 <00003304> 11960
