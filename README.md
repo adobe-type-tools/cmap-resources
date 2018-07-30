@@ -20,7 +20,7 @@ This project includes the following CMap resources, grouped by character collect
 *Adobe-KR-9*: [Adobe-KR-9](https://github.com/adobe-type-tools/Adobe-KR/) (Korean)  
 *deprecated/Adobe-Japan2-0*: [Adobe-Japan2-0](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/5097.Adobe-Japan2-0.pdf) (Japanese, for JIS X 0212-1990 only; Deprecated and replaced by Adobe-Japan1-6)
 
-*Special Note*: With regard to Adobe-Japan1-7, only the CMap resources have been updated to support the character that will represent the Japan's forthcoming new era name, which is U+32FF. The actual specification will be updated shortly after the new era name is announced, which will be on or before 2019-05-01, but not before 2019-02-24.
+**Special Note**: With regard to Adobe-Japan1-7, only the CMap resources have been updated to support the character that will represent Japan's forthcoming new era name, which is U+32FF. The actual specification will be updated shortly after the new era name is announced, which will be on or before 2019-05-01, but not before 2019-02-24.
 
 The *VERSIONS.txt* file specifies the current version of each CMap resource.
 
