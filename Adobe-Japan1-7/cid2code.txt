@@ -1,4 +1,4 @@
-# cid2code.txt (Version 07/30/2018)
+# cid2code.txt (Version 02/05/2019)
 #
 # The data in this table contains 32 tab-delimited columns of
 # information. The contents of this file supplement "The
@@ -160,15 +160,10 @@
 #       the same differences.
 #
 #                    UniJISPro-UTF8-V  UniJIS-UTF8-V
-#       0xE28098     12173             8281
-#       0xE28099     12174             8282
-#       0xE2809C      7956             8279
-#       0xE2809D      7957             8280
-#       0xE38DBB     12044              n/a
-#       0xE38DBC     12043              n/a
-#       0xE38DBD     12042              n/a
-#       0xE38DBE     12041              n/a
-#       0xEFBC9A     12101              n/a
+#       0xE28098     12173             n/a
+#       0xE28099     12174             n/a
+#       0xE2809C      7956             n/a
+#       0xE2809D      7957             n/a
 #
 #       Note, however, that these "Pro" CMap files are no longer being
 #       maintained, and the UTF ones should be used instead.
