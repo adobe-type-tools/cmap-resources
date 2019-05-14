@@ -20,8 +20,6 @@ This project includes the following CMap resources, grouped by character collect
 *Adobe-KR-9*: [Adobe-KR-9](https://github.com/adobe-type-tools/Adobe-KR/) (Korean)  
 *deprecated/Adobe-Japan2-0*: [Adobe-Japan2-0](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/5097.Adobe-Japan2-0.pdf) (Japanese, for JIS X 0212-1990 only; Deprecated and replaced by Adobe-Japan1-6)
 
-**Special Note**: With regard to Adobe-Japan1-7, only the CMap resources have been updated to support the character that will represent the two-kanji square ligature form of Japan’s forthcoming new era name, which is U+32FF. The actual specification will be updated shortly after the new era name is announced, which is expected to happen on 2019-04-01.
-
 The *VERSIONS.txt* file specifies the current version of each CMap resource.
 
 Each collection of CMap resources includes a *cid2code.txt* file that provides the mappings for each CID in tabular form. The Adobe-Japan1-7 CMap resources additionally include mapping files for the three JIS standards, JIS X 0208, JIS X 0212, and JIS X 0213, for JIS90- (*-jp90*) and JIS2004-savvy (*-jp04*) implementations. (The deprecated Adobe-Japan2-0 CMap resources include JIS X 0212 mapping files.)
@@ -140,7 +138,6 @@ GB-EUC-H | GB/T 2312 character set, EUC-CN encoding, half-width GB/T 1988 charac
 GB-EUC-V | Vertical version of GB-EUC-H
 GBpc-EUC-H | Apple Macintosh Simplified Chinese character set, EUC-CN encoding, proportional-width ASCII character set in one-byte range
 GBpc-EUC-V | Vertical version of GBpc-EUC-H
-
 GBK-EUC-H | GBK character set, GBK encoding
 GBK-EUC-V | Vertical version of GBK-EUC-H
 GBK2K-H | GB 18030 character set, GB 18030 encoding
@@ -223,14 +220,12 @@ Hiragana | Half-width hiragana in one-byte range
 Katakana | Half-width katakana in one-byte range
 Roman | Half-width Latin in one-byte range
 WP-Symbol | Miscellaneous symbols in one-byte range
-
 UniJIS-UCS2-H | ISO/IEC 10646 (Unicode), UCS-2 encoding&mdash;OBSOLETE (use UniJIS-UTF16-H)
 UniJIS-UCS2-V | Vertical version of UniJIS-UCS2-H&mdash;OBSOLETE (use UniJIS-UTF16-V)
 UniJISPro-UCS2-V | Vertical version of UniJIS-UCS2-H with references to vertical forms added in Adobe-Japan1-4&mdash;OBSOLETE (use UniJIS-UTF16-V)
 UniJIS-UCS2-HW-H | Same as UniJIS-UCS2-H, but with half-width Latin glyphs in the ASCII/JIS-Roman range (0x20–0x7E and 0xA5)&mdash;OBSOLETE (use UniJIS-UTF16-H)
 UniJIS-UCS2-HW-V | Vertical version of UniJIS-UCS2-HW-H&mdash;OBSOLETE (use UniJIS-UTF16-V)
 UniJISPro-UCS2-HW-V | Vertical version of UniJIS-UCS2-HW-H with references to vertical forms added in Adobe-Japan1-4&mdash;OBSOLETE (use UniJIS-UTF16-V)
-
 UniJIS-UTF8-H | ISO/IEC 10646 (Unicode), UTF-8 encoding
 UniJIS-UTF8-V | Vertical version of UniJIS-UTF8-H
 UniJISPro-UTF8-V | Vertical version of UniJIS-UTF8-H with references to vertical forms added in Adobe-Japan1-4&mdash;OBSOLETE (use UniJIS-UTF8-V)
@@ -280,7 +275,6 @@ UniHojo-UTF16-V | Vertical version of UniHojo-UTF16-H
 UniHojo-UTF32-H | ISO/IEC 10646 (Unicode), UTF-32 encoding
 UniHojo-UTF32-V | Vertical version of UniHojo-UTF32-H
 
-
 ### The Adobe-Korea1-2 Character Collection
 
 The table below lists the supported encodings:
@@ -313,7 +307,6 @@ KSCms-UHC-H | KS X 1001 character set plus Microsoft extensions (Unified Hangul 
 KSCms-UHC-V | Vertical version of KSCms-UHC-H
 KSCpc-EUC-H | Apple Macintosh Korean character set, modified EUC-KR encoding, proportional-width ASCII character set in one-byte range
 KSCpc-EUC-V | Vertical version of KSCpc-EUC-H
-
 UniKS-UCS2-H | ISO/IEC 10646 (Unicode), UCS-2 encoding&mdash;OBSOLETE (use UniKS-UTF16-H)
 UniKS-UCS2-V | Vertical version of UniKS-UCS2-H&mdash;OBSOLETE (use UniKS-UTF16-V)
 UniKS-UTF8-H | ISO/IEC 10646 (Unicode), UTF-8 encoding
@@ -322,7 +315,6 @@ UniKS-UTF16-H | ISO/IEC 10646 (Unicode), UTF-16 encoding
 UniKS-UTF16-V | Vertical version of UniKS-UTF16-H
 UniKS-UTF32-H | ISO/IEC 10646 (Unicode), UTF-32 encoding
 UniKS-UTF32-V | Vertical version of UniKS-UTF32-H
-
 
 ### The Adobe-KR-9 Character Collection
 
