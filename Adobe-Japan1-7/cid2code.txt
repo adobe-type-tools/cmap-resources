@@ -1,4 +1,4 @@
-# cid2code.txt (Version 02/05/2019)
+# cid2code.txt (Version 07/30/2019)
 #
 # The data in this table contains 32 tab-delimited columns of
 # information. The contents of this file supplement "The
@@ -105,36 +105,36 @@
 #   files is recommended.)
 #
 # o Column 20: Character codes for the "UniJIS-UTF8-H" and
-#   "UniJIS-UTF8-V" CMaps (Unicode 12.1 UTF-8 encoding, proportional
+#   "UniJIS-UTF8-V" CMaps (Unicode 13.0 UTF-8 encoding, proportional
 #   Latin characters).
 #
 # o Column 21: Character codes for the "UniJIS-UTF16-H" and
-#   "UniJIS-UTF16-V" CMaps (Unicode 12.1 UTF-16 encoding, proportional
+#   "UniJIS-UTF16-V" CMaps (Unicode 13.0 UTF-16 encoding, proportional
 #   Latin characters).
 #
 # o Column 22: Character codes for the "UniJIS-UTF32-H" and
-#   "UniJIS-UTF32-V" CMaps (Unicode 12.1 UTF-32 encoding, proportional
+#   "UniJIS-UTF32-V" CMaps (Unicode 13.0 UTF-32 encoding, proportional
 #   Latin characters).
 #
 # o Column 23: Character codes for the "UniJIS2004-UTF8-H" and
-#   "UniJIS2004-UTF8-V" CMaps (Unicode 12.1 UTF-8 encoding, proportional
+#   "UniJIS2004-UTF8-V" CMaps (Unicode 13.0 UTF-8 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 24: Character codes for the "UniJIS2004-UTF16-H" and
-#   "UniJIS2004-UTF16-V" CMaps (Unicode 12.1 UTF-16 encoding, proportional
+#   "UniJIS2004-UTF16-V" CMaps (Unicode 13.0 UTF-16 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 25: Character codes for the "UniJIS2004-UTF32-H" and
-#   "UniJIS2004-UTF32-V" CMaps (Unicode 12.1 UTF-32 encoding, proportional
+#   "UniJIS2004-UTF32-V" CMaps (Unicode 13.0 UTF-32 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 26: Character codes for the "UniJISX0213-UTF32-H" and
-#   "UniJISX0213-UTF32-V" CMaps (Unicode 12.1 UTF-32 encoding,
+#   "UniJISX0213-UTF32-V" CMaps (Unicode 13.0 UTF-32 encoding,
 #   proportional Latin characters, some proportional JIS X 0208:1997
 #   characters).
 #
 # o Column 27: Character codes for the "UniJISX02132004-UTF32-H" and
-#   "UniJISX02132004-UTF32-V" CMaps (Unicode 12.1 UTF-32 encoding,
+#   "UniJISX02132004-UTF32-V" CMaps (Unicode 13.0 UTF-32 encoding,
 #   proportional Latin characters, some proportional JIS X 0208:1997
 #   characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
@@ -493,7 +493,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 62	*	*	*	5d	*	*	*	*	*	5d	*	5d	*	*	*	*	005d	*	5d	005d	0000005d	5d	005d	0000005d	0000005d	0000005d	*	*	*	*	*
 63	*	*	*	5e	*	*	*	*	*	5e	*	5e	*	*	*	*	005e	*	5e	005e	0000005e	5e	005e	0000005e	0000005e	0000005e	*	*	*	*	*
 64	*	*	*	5f	*	*	*	*	*	5f	*	5f	*	*	*	*	005f,0332	*	ccb2,5f	0332,005f	00000332,0000005f	ccb2,5f	0332,005f	00000332,0000005f	00000332,0000005f	00000332,0000005f	*	*	*	*	*
-65	*	*	*	60	*	*	*	*	*	60	*	60	*	*	*	*	0060,0300	*	cc80,60	0300,0060	00000300,00000060	cc80,60	0300,0060	00000300,00000060	00000300,00000060	00000300,00000060	*	*	*	*	*
+65	*	*	*	60	*	*	*	*	*	60	*	60	*	*	*	*	0060,0300	*	cb8b,cc80,60	02cb,0300,0060	000002cb,00000300,00000060	cb8b,cc80,60	02cb,0300,0060	000002cb,00000300,00000060	000002cb,00000300,00000060	000002cb,00000300,00000060	*	*	*	*	*
 66	*	*	*	61	*	*	*	*	*	61	*	61	*	*	*	*	0061	*	61	0061	00000061	61	0061	00000061	00000061	00000061	*	*	*	*	*
 67	*	*	*	62	*	*	*	*	*	62	*	62	*	*	*	*	0062	*	62	0062	00000062	62	0062	00000062	00000062	00000062	*	*	*	*	*
 68	*	*	*	63	*	*	*	*	*	63	*	63	*	*	*	*	0063	*	63	0063	00000063	63	0063	00000063	00000063	00000063	*	*	*	*	*
@@ -555,9 +555,9 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 124	*	*	*	ff	*	*	*	*	*	ff	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 125	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 126	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	00bf	*	c2bf	00bf	000000bf	c2bf	00bf	000000bf	000000bf	000000bf	*	*	*	*	*
-127	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0301	*	cc81	0301	00000301	cc81	0301	00000301	000000b4,00000301	000000b4,00000301	*	*	*	*	*
+127	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0301	*	cb8a,cc81	02ca,0301	000002ca,00000301	cb8a,cc81	02ca,0301	000002ca,00000301	000000b4,000002ca,00000301	000000b4,000002ca,00000301	*	*	*	*	*
 128	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0302	*	cb86,cc82	02c6,0302	000002c6,00000302	cb86,cc82	02c6,0302	000002c6,00000302	000002c6,00000302	000002c6,00000302	*	*	*	*	*
-129	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	00af,0304	*	c2af,cc84	00af,0304	000000af,00000304	c2af,cc84	00af,0304	000000af,00000304	000000af,00000304	000000af,00000304	*	*	*	*	*
+129	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	00af,0304	*	c2af,cb89,cc84	00af,02c9,0304	000000af,000002c9,00000304	c2af,cb89,cc84	00af,02c9,0304	000000af,000002c9,00000304	000000af,000002c9,00000304	000000af,000002c9,00000304	*	*	*	*	*
 130	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0306	*	cc86	0306	00000306	cc86	0306	00000306	00000306	00000306	*	*	*	*	*
 131	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0307	*	cc87	0307	00000307	cc87	0307	00000307	00000307	00000307	*	*	*	*	*
 132	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0308	*	cc88	0308	00000308	cc88	0308	00000308	000000a8,00000308	000000a8,00000308	*	*	*	*	*
@@ -12608,7 +12608,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 12177	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12178	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	2702v	2702v	e29c82v	2702v	00002702v	e29c82v	2702v	00002702v	00002702v	00002702v	*	*	*	*	*
 12179	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e380bd	303d	0000303d	e380bd	303d	0000303d	0000303d	0000303d	*	*	*	*	*
-12180	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+12180	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e2ae97	2b97	00002b97	e2ae97	2b97	00002b97	00002b97	00002b97	*	*	*	*	*
 12181	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e3829f	309f	0000309f	e3829f	309f	0000309f	0000309f	0000309f	*	*	*	*	*
 12182	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e0bf96	0fd6	00000fd6	e0bf96	0fd6	00000fd6	00000fd6	00000fd6	*	*	*	*	*
 12183	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -12660,7 +12660,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 12229	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e29cbf	273f	0000273f	e29cbf	273f	0000273f	0000273f	0000273f	*	*	*	*	*
 12230	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12231	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-12232	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+12232	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e2a788	29c8	000029c8	e2a788	29c8	000029c8	000029c8	000029c8	*	*	*	*	*
 12233	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e29b8b	26cb	000026cb	e29b8b	26cb	000026cb	000026cb	000026cb	*	*	*	*	*
 12234	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12235	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -12672,7 +12672,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 12241	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	271a	*	e29c9a	271a	0000271a	e29c9a	271a	0000271a	0000271a	0000271a	*	*	*	*	*
 12242	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12243	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-12244	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+12244	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	f09f9e9c	d83ddf9c	0001f79c	f09f9e9c	d83ddf9c	0001f79c	0001f79c	0001f79c	*	*	*	*	*
 12245	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12246	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12247	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e2aca6	2b26	00002b26	e2aca6	2b26	00002b26	00002b26	00002b26	*	*	*	*	*
@@ -16274,7 +16274,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 15843	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	c9ba	027a	0000027a	c9ba	027a	0000027a	0000027a	0000027a	*	*	*	*	*
 15844	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	c9a7	0267	00000267	c9a7	0267	00000267	00000267	00000267	*	*	*	*	*
 15845	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	cda1	0361	00000361	cda1	0361	00000361	00000361	00000361	*	*	*	*	*
-15846	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	cb88	02c8	000002c8	cb88	02c8	000002c8	000002c8	000002c8	*	*	*	*	*
+15846	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	cb88,cc8d	02c8,030d	000002c8,0000030d	cb88,cc8d	02c8,030d	000002c8,0000030d	000002c8,0000030d	000002c8,0000030d	*	*	*	*	*
 15847	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	cb8c	02cc	000002cc	cb8c	02cc	000002cc	000002cc	000002cc	*	*	*	*	*
 15848	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	cb91	02d1	000002d1	cb91	02d1	000002d1	000002d1	000002d1	*	*	*	*	*
 15849	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e280bf	203f	0000203f	e280bf	203f	0000203f	0000203f	0000203f	*	*	*	*	*
