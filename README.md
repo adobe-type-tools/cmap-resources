@@ -350,4 +350,4 @@ To learn more about CMap resources, please reference [Adobe Tech Note #5099](htt
 
 ## Getting Involved
 
-Send suggestions for changes to the CMap Resources project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20CMap%20Resources), for consideration.
+Suggest changes by submitting an [Issue](https://github.com/adobe-type-tools/cmap-resources/issues).
