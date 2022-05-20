@@ -3,9 +3,9 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniJIS2004-UTF32-H)
 %%Title: (UniJIS2004-UTF32-H Adobe Japan1 7)
-%%Version: 1.021
+%%Version: 1.022
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2019 Adobe. All rights reserved.
+%%Copyright: Copyright 1990-2022 Adobe. All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
 %%Copyright: without modification, are permitted provided that the
@@ -53,7 +53,7 @@ begincmap
 end def
 
 /CMapName /UniJIS2004-UTF32-H def
-/CMapVersion 1.021 def
+/CMapVersion 1.022 def
 /CMapType 1 def
 
 /XUID [1 10 25617] def
@@ -13247,12 +13247,14 @@ endcidchar
 <0000ffe4> 8005
 <0000ffe5> 711
 <0000ffe8> 323
+<0001b132> 12269
+<0001b155> 12271
 <0001f100> 8061
-<0001f202> 10985
-<0001f237> 11024
 endcidchar
 
 100 begincidchar
+<0001f202> 10985
+<0001f237> 11024
 <0001f79c> 12244
 <0002000b> 13839
 <00020089> 17233
@@ -13351,11 +13353,11 @@ endcidchar
 <00022de1> 17710
 <00022e42> 20124
 <00022feb> 20130
-<000231b6> 17744
-<000231c3> 17742
 endcidchar
 
 100 begincidchar
+<000231b6> 17744
+<000231c3> 17742
 <000231c4> 16888
 <000231f5> 17743
 <00023372> 17761
@@ -13454,11 +13456,11 @@ endcidchar
 <00025c64> 18303
 <00025da1> 17033
 <00025e2e> 18318
-<00025e56> 18319
-<00025e62> 18322
 endcidchar
 
 100 begincidchar
+<00025e56> 18319
+<00025e62> 18322
 <00025e65> 18320
 <00025ec2> 18327
 <00025ed8> 18325
@@ -13557,11 +13559,11 @@ endcidchar
 <00028cdd> 7641
 <00028d10> 18882
 <00028d71> 18883
-<00028dfb> 18885
-<00028e17> 14256
 endcidchar
 
 100 begincidchar
+<00028dfb> 18885
+<00028e17> 14256
 <00028e1f> 18886
 <00028e36> 18890
 <00028e89> 18893
@@ -13660,11 +13662,11 @@ endcidchar
 <0002f8dc> 7695
 <0002f8e1> 14291
 <0002f8e5> 20065
-<0002f8ea> 13679
-<0002f8ed> 7665
 endcidchar
 
-15 begincidchar
+18 begincidchar
+<0002f8ea> 13679
+<0002f8ed> 7665
 <0002f8fc> 13656
 <0002f903> 13768
 <0002f90b> 13801
@@ -13680,6 +13682,7 @@ endcidchar
 <0002f9de> 20066
 <0002f9df> 14069
 <0002f9f4> 15269
+<00031350> 19130
 endcidchar
 
 100 begincidrange

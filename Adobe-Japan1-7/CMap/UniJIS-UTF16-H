@@ -3,9 +3,9 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniJIS-UTF16-H)
 %%Title: (UniJIS-UTF16-H Adobe Japan1 7)
-%%Version: 1.026
+%%Version: 1.027
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2019 Adobe. All rights reserved.
+%%Copyright: Copyright 1990-2022 Adobe. All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
 %%Copyright: without modification, are permitted provided that the
@@ -53,7 +53,7 @@ begincmap
 end def
 
 /CMapName /UniJIS-UTF16-H def
-/CMapVersion 1.026 def
+/CMapVersion 1.027 def
 /CMapType 1 def
 
 /XUID [1 10 25611] def
@@ -13098,6 +13098,8 @@ endcidchar
 <9fcc> 20156
 <a7b5> 15909
 <ab53> 15911
+<d82cdd32> 12269
+<d82cdd55> 12271
 <d83cdd00> 8061
 <d83cde02> 10985
 <d83cde37> 11024
@@ -13147,11 +13149,11 @@ endcidchar
 <d843df5f> 17391
 <d844de01> 17414
 <d844de3d> 13953
-<d844de55> 17415
-<d844de74> 17421
 endcidchar
 
 100 begincidchar
+<d844de55> 17415
+<d844de74> 17421
 <d844de7b> 17417
 <d844ded7> 17429
 <d844dee4> 17428
@@ -13250,11 +13252,11 @@ endcidchar
 <d84fddfa> 17943
 <d84fdf7e> 17983
 <d850dc4b> 20168
-<d850dc96> 17998
-<d850dd03> 18003
 endcidchar
 
 100 begincidchar
+<d850dc96> 17998
+<d850dd03> 18003
 <d850ddc6> 18015
 <d850ddfe> 18018
 <d850deee> 14282
@@ -13353,11 +13355,11 @@ endcidchar
 <d85cdd39> 18574
 <d85cdfda> 18611
 <d85cdfdb> 18610
-<d85cdffe> 18617
-<d85ddc10> 18620
 endcidchar
 
 100 begincidchar
+<d85cdffe> 18617
+<d85ddc10> 18620
 <d85ddc49> 18624
 <d85dde14> 18638
 <d85dde15> 18637
@@ -13456,11 +13458,11 @@ endcidchar
 <d86ddf53> 20088
 <d86ddf5a> 20096
 <d86ddf5c> 20097
-<d86ddf65> 20247
-<d86ddf76> 20114
 endcidchar
 
 100 begincidchar
+<d86ddf65> 20247
+<d86ddf76> 20114
 <d86ddf77> 13782
 <d86ddf7c> 20125
 <d86ddf82> 20141
@@ -13528,6 +13530,7 @@ endcidchar
 <d87eddde> 20066
 <d87edddf> 14069
 <d87eddf4> 15269
+<d884df50> 19130
 <f87a> 15447
 <f87f> 15448
 <f909> 13739
@@ -13558,12 +13561,12 @@ endcidchar
 <fa16> 8548
 <fa17> 8571
 <fa1b> 8583
-<fa1c> 8587
-<fa1d> 8590
-<fa1e> 8599
 endcidchar
 
 100 begincidchar
+<fa1c> 8587
+<fa1d> 8590
+<fa1e> 8599
 <fa1f> 8610
 <fa22> 8622
 <fa23> 8630
@@ -13661,12 +13664,12 @@ endcidchar
 <ff3b> 678
 <ff3c> 664
 <ff3d> 679
+endcidchar
+
+12 begincidchar
 <ff3e> 648
 <ff3f> 650
 <ff40> 646
-endcidchar
-
-9 begincidchar
 <ff5b> 680
 <ff5c> 667
 <ff5d> 681
