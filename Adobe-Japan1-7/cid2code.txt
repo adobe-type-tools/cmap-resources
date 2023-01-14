@@ -1,4 +1,4 @@
-# cid2code.txt (Version 07/30/2019)
+# cid2code.txt (Version 05/18/2022)
 #
 # The data in this table contains 32 tab-delimited columns of
 # information. The contents of this file supplement "The
@@ -105,36 +105,36 @@
 #   files is recommended.)
 #
 # o Column 20: Character codes for the "UniJIS-UTF8-H" and
-#   "UniJIS-UTF8-V" CMaps (Unicode 13.0 UTF-8 encoding, proportional
+#   "UniJIS-UTF8-V" CMaps (Unicode 15.0 UTF-8 encoding, proportional
 #   Latin characters).
 #
 # o Column 21: Character codes for the "UniJIS-UTF16-H" and
-#   "UniJIS-UTF16-V" CMaps (Unicode 13.0 UTF-16 encoding, proportional
+#   "UniJIS-UTF16-V" CMaps (Unicode 15.0 UTF-16 encoding, proportional
 #   Latin characters).
 #
 # o Column 22: Character codes for the "UniJIS-UTF32-H" and
-#   "UniJIS-UTF32-V" CMaps (Unicode 13.0 UTF-32 encoding, proportional
+#   "UniJIS-UTF32-V" CMaps (Unicode 15.0 UTF-32 encoding, proportional
 #   Latin characters).
 #
 # o Column 23: Character codes for the "UniJIS2004-UTF8-H" and
-#   "UniJIS2004-UTF8-V" CMaps (Unicode 13.0 UTF-8 encoding, proportional
+#   "UniJIS2004-UTF8-V" CMaps (Unicode 15.0 UTF-8 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 24: Character codes for the "UniJIS2004-UTF16-H" and
-#   "UniJIS2004-UTF16-V" CMaps (Unicode 13.0 UTF-16 encoding, proportional
+#   "UniJIS2004-UTF16-V" CMaps (Unicode 15.0 UTF-16 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 25: Character codes for the "UniJIS2004-UTF32-H" and
-#   "UniJIS2004-UTF32-V" CMaps (Unicode 13.0 UTF-32 encoding, proportional
+#   "UniJIS2004-UTF32-V" CMaps (Unicode 15.0 UTF-32 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 26: Character codes for the "UniJISX0213-UTF32-H" and
-#   "UniJISX0213-UTF32-V" CMaps (Unicode 13.0 UTF-32 encoding,
+#   "UniJISX0213-UTF32-V" CMaps (Unicode 15.0 UTF-32 encoding,
 #   proportional Latin characters, some proportional JIS X 0208:1997
 #   characters).
 #
 # o Column 27: Character codes for the "UniJISX02132004-UTF32-H" and
-#   "UniJISX02132004-UTF32-V" CMaps (Unicode 13.0 UTF-32 encoding,
+#   "UniJISX02132004-UTF32-V" CMaps (Unicode 15.0 UTF-32 encoding,
 #   proportional Latin characters, some proportional JIS X 0208:1997
 #   characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
@@ -12697,10 +12697,10 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 12266	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12267	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12268	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-12269	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-12270	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-12271	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-12272	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+12269	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	f09b84b2	d82cdd32	0001b132	f09b84b2	d82cdd32	0001b132	0001b132	0001b132	*	*	*	*	*
+12270	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	f09b84b2v	d82cdd32v	0001b132v	f09b84b2v	d82cdd32v	0001b132v	0001b132v	0001b132v	*	*	*	*	*
+12271	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	f09b8595	d82cdd55	0001b155	f09b8595	d82cdd55	0001b155	0001b155	0001b155	*	*	*	*	*
+12272	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	f09b8595v	d82cdd55v	0001b155v	f09b8595v	d82cdd55v	0001b155v	0001b155v	0001b155v	*	*	*	*	*
 12273	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12274	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12275	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -19558,7 +19558,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 19127	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e9bdad	9f6d	00009f6d	e9bdad	9f6d	00009f6d	00009f6d	00009f6d	*	*	*	*	*
 19128	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e9bdb0	9f70	00009f70	e9bdb0	9f70	00009f70	00009f70	00009f70	*	*	*	*	*
 19129	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	f0aa9ab2	d869deb2	0002a6b2	f0aa9ab2	d869deb2	0002a6b2	0002a6b2	0002a6b2	*	*	*	*	*
-19130	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e2baac	2eac	00002eac	e2baac	2eac	00002eac	00002eac	00002eac	*	*	*	*	*
+19130	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e2baac,f0b18d90	2eac,d884df50	00002eac,00031350	e2baac,f0b18d90	2eac,d884df50	00002eac,00031350	00002eac,00031350	00002eac,00031350	*	*	*	*	*
 19131	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e39894	3614	00003614	e39894	3614	00003614	00003614	00003614	*	*	*	*	*
 19132	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e3a2ad	38ad	000038ad	e3a2ad	38ad	000038ad	000038ad	000038ad	*	*	*	*	*
 19133	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e3b78c	3dcc	00003dcc	e3b78c	3dcc	00003dcc	00003dcc	00003dcc	*	*	*	*	*

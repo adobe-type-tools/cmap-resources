@@ -1,4 +1,4 @@
-# cid2code.txt (Version 2018-07-19)
+# cid2code.txt (Version 2022-02-28)
 #
 # The data in this table contains four tab-delimited columns of
 # information. The contents of this file supplement "The Adobe-KR-9
@@ -22,13 +22,13 @@
 # information about character set and encoding:
 #
 # o Column 2: Character codes for the "UniAKR-UTF8-H" CMap resource
-#   (Unicode Version 11.0 UTF-8 encoding).
+#   (Unicode Version 13.0 UTF-8 encoding).
 #
 # o Column 3: Character codes for the "UniAKR-UTF16-H" CMap resource
-#   (Unicode Version 11.0 UTF-16 encoding).
+#   (Unicode Version 13.0 UTF-16 encoding).
 #
 # o Column 4: Character codes for the "UniAKR-UTF32-H" CMap resource
-#   (Unicode Version 11.0 UTF-32 encoding).
+#   (Unicode Version 13.0 UTF-32 encoding).
 #
 CID	UniAKR-UTF8	UniAKR-UTF16	UniAKR-UTF32
 0	*	*	*
@@ -22492,7 +22492,7 @@ CID	UniAKR-UTF8	UniAKR-UTF16	UniAKR-UTF32
 22458	f0ac8495	d870dd15	0002c115
 22459	f0ac9f93	d871dfd3	0002c7d3
 22460	f0ae95a9	d879dd69	0002e569
-22461	*	*	*
+22461	f0b09ca9	d881df29	00030729
 22462	*	*	*
 22463	*	*	*
 22464	*	*	*

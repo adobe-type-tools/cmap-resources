@@ -5,9 +5,9 @@
 %%IncludeResource: CMap (UniJIS2004-UTF32-H)
 %%BeginResource: CMap (UniJIS2004-UTF32-V)
 %%Title: (UniJIS2004-UTF32-V Adobe Japan1 7)
-%%Version: 1.006
+%%Version: 1.007
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2019 Adobe. All rights reserved.
+%%Copyright: Copyright 1990-2022 Adobe. All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
 %%Copyright: without modification, are permitted provided that the
@@ -23,8 +23,8 @@
 %%Copyright: provided with the distribution. 
 %%Copyright:
 %%Copyright: Neither the name of Adobe nor the names of its contributors
-%%Copyright: may be used to endorse or promote products derived from
-%%Copyright: this software without specific prior written permission.
+%%Copyright: may be used to endorse or promote products derived from this
+%%Copyright: software without specific prior written permission. 
 %%Copyright:
 %%Copyright: THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
 %%Copyright: CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
@@ -57,7 +57,7 @@ begincmap
 end def
 
 /CMapName /UniJIS2004-UTF32-V def
-/CMapVersion 1.006 def
+/CMapVersion 1.007 def
 /CMapType 1 def
 
 /XUID [1 10 25618] def
@@ -167,7 +167,7 @@ end def
 <0000308e> 7927
 endcidchar
 
-84 begincidchar
+86 begincidchar
 <0000309b> 8272
 <0000309c> 8271
 <000030a0> 16331
@@ -252,6 +252,8 @@ endcidchar
 <0000ff5d> 7906
 <0000ff5e> 7894
 <0000ffe3> 7889
+<0001b132> 12270
+<0001b155> 12272
 endcidchar
 
 37 begincidrange

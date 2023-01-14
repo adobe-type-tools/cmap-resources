@@ -3,9 +3,9 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniAKR-UTF8-H)
 %%Title: (UniAKR-UTF8-H Adobe KR 9)
-%%Version: 1.002
+%%Version: 1.003
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2019 Adobe. All rights reserved.
+%%Copyright: Copyright 1990-2022 Adobe. All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
 %%Copyright: without modification, are permitted provided that the
@@ -21,8 +21,8 @@
 %%Copyright: provided with the distribution. 
 %%Copyright:
 %%Copyright: Neither the name of Adobe nor the names of its contributors
-%%Copyright: may be used to endorse or promote products derived from
-%%Copyright: this software without specific prior written permission.
+%%Copyright: may be used to endorse or promote products derived from this
+%%Copyright: software without specific prior written permission. 
 %%Copyright:
 %%Copyright: THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
 %%Copyright: CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
@@ -53,7 +53,7 @@ begincmap
 end def
 
 /CMapName /UniAKR-UTF8-H def
-/CMapVersion 1.002 def
+/CMapVersion 1.003 def
 /CMapType 1 def
 
 /WMode 0 def
@@ -8515,7 +8515,7 @@ endcidchar
 <efa7b5> 16351
 endcidchar
 
-89 begincidchar
+90 begincidchar
 <efa7b6> 17548
 <efa7b7> 17155
 <efa7b8> 17175
@@ -8605,6 +8605,7 @@ endcidchar
 <f0ac8495> 22458
 <f0ac9f93> 22459
 <f0ae95a9> 22460
+<f0b09ca9> 22461
 endcidchar
 
 100 begincidrange

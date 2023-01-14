@@ -3,9 +3,9 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniAKR-UTF16-H)
 %%Title: (UniAKR-UTF16-H Adobe KR 9)
-%%Version: 1.002
+%%Version: 1.003
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2019 Adobe. All rights reserved.
+%%Copyright: Copyright 1990-2022 Adobe. All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
 %%Copyright: without modification, are permitted provided that the
@@ -21,8 +21,8 @@
 %%Copyright: provided with the distribution. 
 %%Copyright:
 %%Copyright: Neither the name of Adobe nor the names of its contributors
-%%Copyright: may be used to endorse or promote products derived from
-%%Copyright: this software without specific prior written permission.
+%%Copyright: may be used to endorse or promote products derived from this
+%%Copyright: software without specific prior written permission. 
 %%Copyright:
 %%Copyright: THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
 %%Copyright: CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
@@ -53,7 +53,7 @@ begincmap
 end def
 
 /CMapName /UniAKR-UTF16-H def
-/CMapVersion 1.002 def
+/CMapVersion 1.003 def
 /CMapType 1 def
 
 /WMode 0 def
@@ -8257,6 +8257,7 @@ endcidchar
 <d870dd15> 22458
 <d871dfd3> 22459
 <d879dd69> 22460
+<d881df29> 22461
 <f900> 18067
 <f901> 15913
 <f902> 18186
@@ -8305,10 +8306,10 @@ endcidchar
 <f92d> 14368
 <f92e> 14527
 <f92f> 14615
-<f930> 15724
 endcidchar
 
 100 begincidchar
+<f930> 15724
 <f931> 16155
 <f932> 16629
 <f933> 16954
@@ -8408,10 +8409,10 @@ endcidchar
 <f991> 15713
 <f992> 16448
 <f993> 16577
-<f994> 16797
 endcidchar
 
 100 begincidchar
+<f994> 16797
 <f995> 17089
 <f996> 17340
 <f997> 17451
@@ -8511,10 +8512,10 @@ endcidchar
 <f9f5> 16351
 <f9f6> 17548
 <f9f7> 17155
-<f9f8> 17175
 endcidchar
 
-26 begincidchar
+27 begincidchar
+<f9f8> 17175
 <f9f9> 17238
 <f9fa> 16666
 <f9fb> 16544
