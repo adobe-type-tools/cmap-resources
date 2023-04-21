@@ -14,7 +14,7 @@ This project includes the following CMap resources, grouped by character collect
 
 *Adobe-Identity-0*: Adobe-Identity-0 (Special Purpose)  
 *Adobe-CNS1-7*: [Adobe-CNS1-7](https://github.com/adobe-type-tools/Adobe-CNS1/) (Traditional Chinese, including Hong Kong SCS-2016)  
-*Adobe-GB1-5*: [Adobe-GB1-5](https://github.com/adobe-type-tools/Adobe-GB1/) (Simplified Chinese)  
+*Adobe-GB1-6*: [Adobe-GB1-6](https://github.com/adobe-type-tools/Adobe-GB1/) (Simplified Chinese)  
 *Adobe-Japan1-7*: [Adobe-Japan1-7](https://github.com/adobe-type-tools/Adobe-Japan1/) (Japanese)  
 *Adobe-Korea1-2*: [Adobe-Korea1-2](https://github.com/adobe-type-tools/Adobe-KR/raw/master/5093.Adobe-Korea1-2.pdf) (Korean)  
 *Adobe-KR-9*: [Adobe-KR-9](https://github.com/adobe-type-tools/Adobe-KR/) (Korean)  
@@ -107,7 +107,7 @@ UniCNS-UTF16-V | Vertical version of UniCNS-UTF16-H
 UniCNS-UTF32-H | ISO/IEC 10646 (Unicode), UTF-32 encoding
 UniCNS-UTF32-V | Vertical version of UniCNS-UTF32-H
 
-### The Adobe-GB1-5 Character Collection
+### The Adobe-GB1-6 Character Collection
 
 The table below lists the supported encodings:
 
@@ -122,7 +122,7 @@ UTF-8 | 0x00–0x7F, 0xC080–0xDFBF, 0xE08080–0xEFBFBF & 0xF0808080–0xF7BFB
 UTF-16 | 0x0000–0xD7FF, 0xE000–0xFFFF & 0xD800DC00–0xDBFFDFFF
 UTF-32 | 0x00000000–0x0010FFFF
 
-The table below provides descriptions of the Adobe-GB1-5 CMap resources:
+The table below provides descriptions of the Adobe-GB1-6 CMap resources:
 
 **CMap Resource** | **Description**
 --- | ---
@@ -132,6 +132,7 @@ Adobe-GB1-2 | Identity CMap
 Adobe-GB1-3 | Identity CMap
 Adobe-GB1-4 | Identity CMap
 Adobe-GB1-5 | Identity CMap
+Adobe-GB1-6 | Identity CMap
 GB-H | GB/T 2312 character set, ISO-2022 encoding
 GB-V | Vertical version of GB-H
 GB-EUC-H | GB/T 2312 character set, EUC-CN encoding, half-width GB/T 1988 character set (nearly identical with ASCII) in one-byte range
@@ -346,7 +347,7 @@ UniAKR-UTF32-H | ISO/IEC 10646 (Unicode), UTF-32 encoding
 
 ## More Information
 
-To learn more about CMap resources, please reference [Adobe Tech Note #5099](http://wwwimages.adobe.com/content/dam/Adobe/en/devnet/font/pdfs/5099.CMapResources.pdf), *Developing CMap Resources for CID-Keyed Fonts*, and [Adobe Tech Note #5014](http://wwwimages.adobe.com/content/dam/Adobe/en/devnet/font/pdfs/5014.CIDFont_Spec.pdf), *Adobe CMap and CID Font Files Specification*.
+To learn more about CMap resources, please reference [Adobe Tech Note #5099](https://github.com/adobe-type-tools/font-tech-notes/blob/main/pdfs/5099.CMapResources.pdf), *Developing CMap Resources for CID-Keyed Fonts*, and [Adobe Tech Note #5014](https://github.com/adobe-type-tools/font-tech-notes/blob/main/pdfs/5014.CIDFont_Spec.pdf), *Adobe CMap and CID Font Files Specification*.
 
 ## Getting Involved
 
