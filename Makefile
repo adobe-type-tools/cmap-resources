@@ -30,7 +30,7 @@ packagedir   = $(datadir)/$(AUTHOR)/resources/mapping
 CMap_CNS1_source = Adobe-CNS1-7
 CMap_CNS1_dest = CNS1
 
-CMap_GB1_source = Adobe-GB1-5
+CMap_GB1_source = Adobe-GB1-6
 CMap_GB1_dest = GB1
 
 CMap_ID_source = Adobe-Identity-0
