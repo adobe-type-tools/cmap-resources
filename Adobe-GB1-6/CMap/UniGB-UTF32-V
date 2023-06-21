@@ -5,7 +5,7 @@
 %%IncludeResource: CMap (UniGB-UTF32-H)
 %%BeginResource: CMap (UniGB-UTF32-V)
 %%Title: (UniGB-UTF32-V Adobe GB1 6)
-%%Version: 1.000
+%%Version: 1.008
 %%Copyright: -----------------------------------------------------------
 %%Copyright: Copyright 1990-2023 Adobe. All rights reserved.
 %%Copyright:
@@ -57,7 +57,7 @@ begincmap
 end def
 
 /CMapName /UniGB-UTF32-V def
-/CMapVersion 1.000 def
+/CMapVersion 1.008 def
 /CMapType 1 def
 
 /XUID [1 10 25604] def
