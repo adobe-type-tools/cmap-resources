@@ -97,7 +97,7 @@ CID	GB	GB-EUC	GBpc-EUC	GBT	GBT-EUC	GBTpc-EUC	GBK-EUC	GBKp-EUC	GBK2K	UniGB-UCS2	U
 11	*	*	2a	*	*	2a	*	2a	2a	002a	2a	002a	0000002a
 12	*	*	2b	*	*	2b	*	2b	2b	002b	2b	002b	0000002b
 13	*	*	2c	*	*	2c	*	2c	2c	002c	2c	002c	0000002c
-14	*	*	2d	*	*	2d	*	2d	2d	002d	2d	002d	0000002d
+14	*	*	2d	*	*	2d	*	2d	2d	002d	2d,ad	002d,00ad	0000002d,000000ad
 15	*	*	2e	*	*	2e	*	2e	2e	002e	2e	002e	0000002e
 16	*	*	2f	*	*	2f	*	2f	2f	002f	2f	002f	0000002f
 17	*	*	30	*	*	30	*	30	30	0030	30	0030	00000030
