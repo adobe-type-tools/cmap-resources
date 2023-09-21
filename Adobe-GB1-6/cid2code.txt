@@ -1,4 +1,4 @@
-# cid2code.txt (Version 04/20/2023)
+# cid2code.txt (Version 09/21/2023)
 #
 # The data in this table contains 14 tab-delimited columns of
 # information. The contents of this file supplement "The Adobe-GB1-6
