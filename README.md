@@ -18,6 +18,7 @@ This project includes the following CMap resources, grouped by character collect
 *Adobe-Japan1-7*: [Adobe-Japan1-7](https://github.com/adobe-type-tools/Adobe-Japan1/) (Japanese)  
 *Adobe-Korea1-2*: [Adobe-Korea1-2](https://github.com/adobe-type-tools/Adobe-KR/raw/master/5093.Adobe-Korea1-2.pdf) (Korean)  
 *Adobe-KR-9*: [Adobe-KR-9](https://github.com/adobe-type-tools/Adobe-KR/) (Korean)  
+*Adobe-Manga1-0*: [Adobe-Manga1-0](https://github.com/adobe-type-tools/Adobe-Manga1/) (Japanese Manga)  
 *deprecated/Adobe-Japan2-0*: [Adobe-Japan2-0](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/5097.Adobe-Japan2-0.pdf) (Japanese, for JIS X 0212-1990 only; Deprecated and replaced by Adobe-Japan1-6)
 
 The *VERSIONS.txt* file specifies the current version of each CMap resource.
@@ -344,6 +345,29 @@ Adobe-KR-9 | Identity CMap
 UniAKR-UTF8-H | ISO/IEC 10646 (Unicode), UTF-8 encoding
 UniAKR-UTF16-H | ISO/IEC 10646 (Unicode), UTF-16 encoding
 UniAKR-UTF32-H | ISO/IEC 10646 (Unicode), UTF-32 encoding
+
+### The Adobe-Manga1-0 Character Collection
+
+The table below lists the supported encodings:
+
+**Encoding** | **Byte Ranges**
+--- | ---
+UTF-8 | 0x00–0x7F, 0xC080–0xDFBF, 0xE08080–0xEFBFBF & 0xF0808080–0xF7BFBFBF
+UTF-16 | 0x0000–0xD7FF, 0xE000–0xFFFF & 0xD800DC00–0xDBFFDFFF
+UTF-32 | 0x00000000–0x0010FFFF
+
+The table below provides descriptions of the Adobe-Manga1-0 CMap resources:
+
+**CMap Resource** | **Description**
+--- | ---
+Adobe-Manga1-0 | Identity CMap
+UniManga-UTF8-H | ISO/IEC 10646 (Unicode), UTF-8 encoding
+UniManga-UTF8-V | Vertical version of UniManga-UTF8-H
+UniManga-UTF16-H | ISO/IEC 10646 (Unicode), UTF-16 encoding
+UniManga-UTF16-V | Vertical version of UniManga-UTF16-H
+UniManga-UTF32-H | ISO/IEC 10646 (Unicode), UTF-32 encoding
+UniManga-UTF32-V | Vertical version of UniManga-UTF32-H
+
 
 ## More Information
 

@@ -206,3 +206,13 @@ Adobe-KR-9 (CMapVersion=1.002)
 UniAKR-UTF16-H (CMapVersion=1.003)
 UniAKR-UTF32-H (CMapVersion=1.003)
 UniAKR-UTF8-H (CMapVersion=1.003)
+
+Adobe-Manga1-0:
+Adobe-Manga1-0 (CMapVersion=1.000)
+UniManga-UTF16-H (CMapVersion=1.000)
+UniManga-UTF16-V (CMapVersion=1.000)
+UniManga-UTF32-H (CMapVersion=1.000)
+UniManga-UTF32-V (CMapVersion=1.000)
+UniManga-UTF8-H (CMapVersion=1.000)
+UniManga-UTF8-V (CMapVersion=1.000)
+
