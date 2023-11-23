@@ -142,6 +142,8 @@ GBpc-EUC-H | Apple Macintosh Simplified Chinese character set, EUC-CN encoding, 
 GBpc-EUC-V | Vertical version of GBpc-EUC-H
 GBK-EUC-H | GBK character set, GBK encoding
 GBK-EUC-V | Vertical version of GBK-EUC-H
+GBKp-EUC-H | Same as GBK-EUC-H but replaces half-width Latin characters with proportional forms and maps character code 0x24 to a dollar sign ($) instead of a yuan symbol (¥)
+GBKp-EUC-V | Vertical version of GBKp-EUC-H
 GBK2K-H | GB 18030 character set, GB 18030 encoding
 GBK2K-V | Vertical version of GBK2K-H
 GBT-H | GB/T 12345 character set, ISO-2022 encoding
@@ -307,6 +309,8 @@ KSC-Johab-H | KS X 1001 character set plus Johab extensions, Johab encoding
 KSC-Johab-V | Vertical version of KSC-Johab-H
 KSCms-UHC-H | KS X 1001 character set plus Microsoft extensions (Unified Hangul Code), UHC encoding
 KSCms-UHC-V | Vertical version of KSCms-UHC-H
+KSCms-UHC-HW-H | Same as KSCms-UHC-H but replaces proportional Latin characters with half-width forms
+KSCms-UHC-HW-V | Vertical version of KSCms-UHC-HW-H
 KSCpc-EUC-H | Apple Macintosh Korean character set, modified EUC-KR encoding, proportional-width ASCII character set in one-byte range
 KSCpc-EUC-V | Vertical version of KSCpc-EUC-H
 UniKS-UCS2-H | ISO/IEC 10646 (Unicode), UCS-2 encoding&mdash;OBSOLETE (use UniKS-UTF16-H)
